@@ -30,3 +30,11 @@ h1{
   background-color: #393e46;
   color: #fff;
 }
+
+#cta{
+  background-color: #212529;
+  color: #fff;
+  padding: 7% 15%;
+  text-align: center;
+  margin-top: 5%;
+}
