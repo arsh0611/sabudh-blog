@@ -14,6 +14,18 @@
   </head>
   <body>
 
+    <script>
+      function txtON(ele) {
+        var x = ele.value; //document.getElementsByClassName("overlay").style.display = "block";
+        document.getElementById(x).style.display = "block";
+      }
+
+      function txtOFF(elem) {
+        var y = elem.id;
+        document.getElementById(y).style.display = "none";
+      }
+    </script>
+    
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
   <div class="container-fluid">
     <a class="navbar-brand" href="#">Arsh Heer</a>
@@ -48,7 +60,7 @@
 
     <div id="cta">
       <h3>
-        Introduction To Machine Learnin
+        Introduction To Machine Learning
       </h3>
 
     </div>
@@ -69,10 +81,21 @@
 
           <!-- <p>what a Population </p>
           <p>hypothesis space, parameters, generative models and discriminative models</p>
-          <p>search in parameter space</p> -->
+          <p>search in parameter space</p>
           <div class="d-grid gap-2">
-            <button type="button" class="btn btn-lg btn-dark">View Details</button>
+            <button type="button" class="btn btn-lg btn-dark" onclick="txtON()">View Details</button>
           </div>
+            <div id="8Jul" class="overlay" onclick="txtOFF()">
+              <div class="text">Overlay Text</div>
+            </div>
+          -->
+
+          <div class="d-grid gap-2">
+            <button type="button" class="btn btn-lg btn-dark" value="8Jul" onclick="txtON(this)">View Details</button>
+          </div>
+            <div id="8Jul" class="overlay" onclick="txtOFF(this)">
+              <div class="text">Overlay Text 1</div>
+            </div>
       </div>
       </div>
     </div>
