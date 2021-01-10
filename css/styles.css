@@ -39,7 +39,7 @@ h1{
   margin-top: 5%;
 }
 
-.overlay {
+.overlay{
   position: fixed;
   display: none;
   width: 100%;
