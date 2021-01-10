@@ -41,7 +41,7 @@ h1{
 
 .overlay{
   z-index: 2;
-  background-color: rgba(0,0,0,0.925);
+  background-color: rgba(0,0,0,0.95);
   cursor: pointer;
   position: fixed;
   display: none;
