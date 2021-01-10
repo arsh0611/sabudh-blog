@@ -12,7 +12,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap" rel="stylesheet">
 
   </head>
-  <body>
+  <body class="body">
 
     <script>
       function txtON(ele) {
@@ -107,7 +107,6 @@
                 <li>P(X,Y)/P(X) = P(Y|X), Probabilty theory, P(X,Y): Joint Probabilty, P(Y|X): Conditional Probability</li>
                 <li>Componets of ML:<ul><li>Sample Data</li><li>A function g from family of functions (Hypothesis space)</li><li>Cost function that tells how close g(x) is to f(x)(real world process)</li>
                   <li>Search Algorithm that searches for g(x) from Hypothesis Space which minimizes the cost function</li></ul></li>
-                <li> </li>
               </ol>
             </div>
           </div>
@@ -123,7 +122,7 @@
           <h2>9-July-2020</h2>
           <ul>
             <li>Gaussian Mixture Models</li>
-            <li> Maximum Likelihood.</li>
+            <li> Maximum Likelihood</li>
             <br>
             <br>
 
@@ -132,7 +131,17 @@
           <p>point 2</p>
           <p>pint 3</p> -->
           <div class="d-grid gap-2">
-            <button type="button" class="btn btn-lg btn-dark">View Details</button>
+            <button type="button" class="btn btn-lg btn-dark" value="9Jul" onclick="txtON(this)">View Details</button>
+          </div>
+          <div id="9Jul" class="overlay" onclick="txtOFF(this)">
+            <div class="text">
+              <ol>
+                <li>Process of MLearning: Raw Data -> Feature Extraction -> Model</li>
+                <li>Rules of getting a model: Accurate and Generalises</li>
+                <li>Probability for single Gaussian/Normal distribution(for any point x/a random variable in a sample) = 1/sqrt(2*pi*SD)*e(-(x-mean)^2/2SD^2)</li>
+                <li>(Mixture Model)If C1 is the mean of one gaussian and C2 of the other then, Probability for two Gaussian/Normal distribution(for any point x/a random variabel in a sample) = P(C1)*P(X|C1) + P(C2)*P(X|C2)</li>
+              </ol>
+            </div>
           </div>
       </div>
       </div>
@@ -208,7 +217,28 @@
           <p>Point 2</p>
           <p>Point 3</p> -->
           <div class="d-grid gap-2">
-            <button type="button" class="btn btn-lg btn-dark">View Details</button>
+            <button type="button" class="btn btn-lg btn-dark" value="17Jul" onclick="txtON(this)">View Details</button>
+          </div>
+          <div id="17Jul" class="overlay" onclick="txtOFF(this)">
+            <div class="text">
+              <ol>
+                <li>CRISP-DM: CRoss Industry Standard Process for Data Mining</li>
+                <li>Four levels of Abstraction: Data Preparation, Data Cleaning(Generic Task), Missing Value Handling(Specialized Task), The mean value for numeric attributes and median for categorical attributes is used(Process Instance)</li>
+                <li>In Data Mining Context: Application Domain(Medical Prognosis), Data Mining Problem(Regression), Technical Aspect(Censored Observations/Actual event of interest is not observed), Tools and Techniques(Cox's Regression, CIL's GENNA)</li>
+                <li>Business Understanding ->< Data Understanding -> Data Preparation ->< Modelling -> Evaluation -> Deployement (It's not linear, but repeatedly backtracking)</li>
+                <li>While understanding the business do define the constraints and the meterics like Key Performance Indicators(KPIs) | Understanding status quo, Model Selection, define success criteria, speak the language, cost/benefit analysis</li>
+                <li>Current Systems Assessment: Identify the key factors, what forms should the output take, integerating o/p with existing technology, understanding market norms</li>
+                <li>Task Decompostion, Identify constraints, Build a project plan</li>
+                <li>Data Understanding: collect data(what are the sources), data description, data exploration</li>
+                <li>Data Understanding: Integerate Data(aggregation), Select Data(sampling and attribute selection), Transformation(PCA, normalization, binarizaion), clean data(missing values/outliers), construction(derived attributes)</li>
+                <li>Tip: To reduce data dimensions PCA, principal Component Analysis and Multidimensional Scaling is used</li>
+                <li>Data preparation comprises of feature engineering</li>
+                <li>Data Modelling: Build Model, Assess model(overfitting, error distribution), validate model, review</li>
+                <li>Evaluation: offline(Estimate, expected, accuracy), online(a/b testing(cohort testing)) then MLOPS(in development phase, just like Devops)</li>
+                <li>Deployment: Knowledge deployment is specific to objectives(presentation, pre processing of live data feeds, generating a report, monitoring effectiveness), process deployment, produce final report</li>
+                <li>MLOPS includes Data pipelines and Update Model Efficiency</li>
+              </ol>
+            </div>
           </div>
         </div>
       </div>
