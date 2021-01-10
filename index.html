@@ -172,12 +172,21 @@
           </ul>
           <!-- <p>Point 1</p>
           <p>Point 2</p>
-          <p>Point 3</p> -->
+          <p>Point 3</p> <ol><li></li></ol>-->
           <div class="d-grid gap-2">
             <button type="button" class="btn btn-lg btn-dark" value="13Jul" onclick="txtON(this)">View Details</button>
           </div>
           <div id="13Jul" class="overlay" onclick="txtOFF(this)">
-            <div class="text">Overlay Text 1</div>
+            <div class="text">
+              <ol>
+                <li>Variance reduction is a procedure used to increase the precision of the estimates that can be obtained for a given simulation or computational effort.[1] Every output random variable from the simulation is associated with a variance which limits the precision of the simulation results. In order to make a simulation statistically efficient, i.e., to obtain a greater precision and smaller confidence intervals for the output random variable of interest, variance reduction techniques can be used.</li>
+                <li>The main ones are common random numbers, antithetic variates, control variates, importance sampling, stratified sampling, moment matching, conditional Monte Carlo and quasi random variables.</li>
+                <li>Probabailistic models incorporate random variables and probability distributions into the model of an event or phenomenon. While a deterministic model gives a single possible outcome for an event, a probabilistic model gives a probability distribution as a solution.</li>
+                <li>Random variables from the normal distribution, binomial distribution and Bernoulli distribution form the foundation for this type of modeling.</li>
+                <li>Linear regression models an output variable as a linear combination of input features. A linear model attempts to find the simplest relationship between a feature variable and the output as possible.</li>
+                <li>Linear regression tries find a similar relationship between an input feature and dependent variable, and ends up creating a similar formula: Y=β0+β1X</li>
+              </ol>
+            </div>
           </div>
         </div>
       </div>
@@ -194,18 +203,38 @@
           <ul>
             <li> Logistic Regression</li>
             <li>Reducing the Number of Parameters</li>
-            <li>functional form assumptions</li>
-            <li>independence assumptions.</li>
+            <li>Functional form assumptions</li>
+            <li>Independence assumptions.</li>
             <br>
           </ul>
           <!-- <p>Point 1</p>
           <p>Point 2</p>
-          <p>Point 3</p> -->
+          <p>Point 3</p> <ol><li></li></ol>-->
           <div class="d-grid gap-2">
             <button type="button" class="btn btn-lg btn-dark" value="15Jul" onclick="txtON(this)">View Details</button>
           </div>
           <div id="15Jul" class="overlay" onclick="txtOFF(this)">
-            <div class="text">Overlay Text 1</div>
+            <div class="text">
+              <ol>
+                <li>Logistic Regression is a classification algorithm, that is used where the response variable is categorical. The idea of Logistic Regression is to find a relationship between features and probability of particular outcome.</li>
+                <li>Logistic regression can be expressed as: log (  p(X)  / k 1 - p(X) ) =  β0+β1X </li>
+                <li>
+                  <ul>
+                    <li>Confirmatory analysis (→ reduce your predictor complexity to a reasonable level without looking at the responses, by PCA or subject-area considerations or ...)</li>
+                    <li>Predictive analysis (→ use appropriate penalization methods). Lasso could very well work OK with 100 predictors, if you have a reasonably large sample. Feature selection will be unstable, but that's OK if all you care about is prediction.</li>
+                    <li>Exploratory analysis: Be transparent, don't quote any p-values.</li>
+                <li>Ordinary Least Squares Assumption: The regression model is linear in the coefficients and the error term. This assumption addresses the functional form of the model. In statistics, a regression model is linear when all terms in the model are either the constant or a parameter multiplied by an independent variable. The defining characteristic of linear regression is this functional form of the parameters rather than the ability to model curvature. Linear models can model curvature by including nonlinear variables such as polynomials and transforming exponential functions.</li>
+                <li>
+                  <ul>
+                    Multiple linear regression analysis makes several key assumptions:
+                    <li>There must be a linear relationship between the outcome variable and the independent variables.  Scatterplots can show whether there is a linear or curvilinear relationship.
+                    <li>Multivariate Normality: Multiple regression assumes that the residuals are normally distributed.
+                    <li>No Multicollinearity: Multiple regression assumes that the independent variables are not highly correlated with each other.  This assumption is tested using Variance Inflation Factor (VIF) values.
+                    <li>Homoscedasticity:This assumption states that the variance of error terms are similar across the values of the independent variables.  A plot of standardized residuals versus predicted values can show whether points are equally distributed across all values of the independent variables.
+                  </ul>
+                </li>
+              </ol>
+            </div>
           </div>
         </div>
       </div>
@@ -230,7 +259,7 @@
           </ul>
           <!-- <p>Point 1</p>
           <p>Point 2</p>
-          <p>Point 3</p> -->
+          <p>Point 3</p> <ol><li></li></ol>-->
           <div class="d-grid gap-2">
             <button type="button" class="btn btn-lg btn-dark" value="17Jul" onclick="txtON(this)">View Details</button>
           </div>
@@ -279,12 +308,25 @@
           </ul>
           <!-- <p>Point 1</p>
           <p>Point 2</p>
-          <p>Point 3</p> -->
+          <p>Point 3</p> <ol><li></li></ol>-->
           <div class="d-grid gap-2">
             <button type="button" class="btn btn-lg btn-dark" value="21Jul" onclick="txtON(this)">View Details</button>
           </div>
           <div id="21Jul" class="overlay" onclick="txtOFF(this)">
-            <div class="text">Overlay Text 1</div>
+            <div class="text">
+              <ol>
+                <li>Logistic Regression is a classification algorithm, that is used where the response variable is categorical. The idea of Logistic Regression is to find a relationship between features and probability of particular outcome.</li>
+                <li>Logistic regression can be expressed as: log (  p(X)  / k 1 - p(X) ) =  β0+β1X </li>
+                <li>Cross-entropy loss, or log loss, measures the performance of a classification model whose output is a probability value between 0 and 1. Cross-entropy loss increases as the predicted probability diverges from the actual label.</li>
+                <li>In binary classification, where the number of classes M equals 2, cross-entropy can be calculated as: −(ylog(p)+(1−y)log(1−p)). If M>2 (i.e. multiclass classification), we calculate a separate loss for each class label per observation and sum the result. −∑c=1Myo,clog(po,c)</li>
+                <li>Many problems require a probability estimate as output. Logistic regression is an extremely efficient mechanism for calculating probabilities. Practically speaking, you can use the returned probability in either of the following two ways:
+                  <ul>
+                    <li>"As is"</li>
+                    <li>Converted to a binary category</li>
+                  </ul>
+                </li>
+              </ol>
+            </div>
           </div>
         </div>
       </div>
@@ -310,12 +352,21 @@
           </ul>
           <!-- <p>Point 1</p>
           <p>Point 2</p>
-          <p>Point 3</p> -->
+          <p>Point 3</p> <ol><li></li></ol>-->
           <div class="d-grid gap-2">
             <button type="button" class="btn btn-lg btn-dark" value="22Jul" onclick="txtON(this)">View Details</button>
           </div>
           <div id="22Jul" class="overlay" onclick="txtOFF(this)">
-            <div class="text">Overlay Text 1</div>
+            <div class="text">
+              <ol>
+                <li>Linear regression models an output variable as a linear combination of input features. A linear model attempts to find the simplest relationship between a feature variable and the output as possible.</li>
+                <li>Linear regression tries find a similar relationship between an input feature and dependent variable, and ends up creating a similar formula: Y=β0+β1X</li>
+                <li>Gradient descent is an optimization algorithm used to minimize some function by iteratively moving in the direction of steepest descent as defined by the negative of the gradient</li>
+                <li>Given the cost function: f(m,b)=1N∑i=1n(yi−(mxi+b))2. The gradient can be calculated as: f′(m,b)=⎡⎣dfdmdfdb⎤⎦=[1N∑−2xi(yi−(mxi+b))1N∑−2(yi−(mxi+b))] To solve for the gradient, we iterate through our data points using our new m and b values and compute the partial derivatives. This new gradient tells us the slope of our cost function at our current position (current parameter values) and the direction we should move to update our parameters. The size of our update is controlled by the learning rate.</li>
+                <li>A low learning rate is more precise, but calculating the gradient is time-consuming, so it will take us a very long time to get to the bottom.</li>
+                <li>A Loss Functions tells us “how good” our model is at making predictions for a given set of parameters. The cost function has its own curve and its own gradients. The slope of this curve tells us how to update our parameters to make the model more accurate.</li>
+              </ol>
+            </div>
           </div>
         </div>
       </div>
@@ -332,7 +383,7 @@
           <h2>23-July-2020</h2>
           <!-- <p></p> -->
           <ul>
-            <li>Bayesian belief networks</li>
+            <li>Bayesian Belief networks</li>
             <li>Naive Bayes</li>
             <li>Independence assumptions</li>
             <br>
@@ -340,12 +391,38 @@
           </ul>
           <!-- <p>Point 1</p>
           <p>Point 2</p>
-          <p>Point 3</p> -->
+          <p>Point 3</p> <ol><li></li></ol>-->
           <div class="d-grid gap-2">
             <button type="button" class="btn btn-lg btn-dark" value="23Jul" onclick="txtON(this)">View Details</button>
           </div>
           <div id="23Jul" class="overlay" onclick="txtOFF(this)">
-            <div class="text">Overlay Text 1</div>
+            <div class="text">
+              <ol>
+                <li>Bayesian Belief Network or Bayesian Network or Belief Network is a Probabilistic Graphical Model (PGM) that represents conditional dependencies between random variables through a Directed Acyclic Graph (DAG).</li>
+                <li>
+                  <ul>Designing a Bayesian Network requires defining at least three things:
+                  <li>Random Variables. What are the random variables in the problem?
+                  <li>Conditional Relationships. What are the conditional relationships between the variables?
+                  <li>Probability Distributions. What are the probability distributions for each variable?
+                  </ul>
+                </li>
+                <li>Naive Bayes is a classification technique based on Bayes’ Theorem with an assumption of independence among predictors.</li>
+                <li>The representation for naive Bayes is probabilities. A list of probabilities are stored to file for a learned naive Bayes model. This includes:
+                  <ul>
+                    <li>Class Probabilities: The probabilities of each class in the training dataset.
+                    <li>Conditional Probabilities: The conditional probabilities of each input value given each class value.</li>
+                  </ul>
+                <li>
+                  <ul>
+                    Multiple linear regression analysis makes several key assumptions:
+                    <li>There must be a linear relationship between the outcome variable and the independent variables.  Scatterplots can show whether there is a linear or curvilinear relationship.
+                    <li>Multivariate Normality: Multiple regression assumes that the residuals are normally distributed.
+                    <li>No Multicollinearity: Multiple regression assumes that the independent variables are not highly correlated with each other.  This assumption is tested using Variance Inflation Factor (VIF) values.
+                    <li>Homoscedasticity:This assumption states that the variance of error terms are similar across the values of the independent variables.  A plot of standardized residuals versus predicted values can show whether points are equally distributed across all values of the independent variables.
+                  </ul>
+                </li>
+              </ol
+            </div>
           </div>
         </div>
       </div>
@@ -370,7 +447,7 @@
           </ul>
           <!-- <p>Point 1</p>
           <p>Point 2</p>
-          <p>Point 3</p> -->
+          <p>Point 3</p> <ol><li></li></ol>-->
           <div class="d-grid gap-2">
             <button type="button" class="btn btn-lg btn-dark" value="27Jul" onclick="txtON(this)">View Details</button>
           </div>
@@ -399,7 +476,7 @@
           </ul>
           <!-- <p>Point 1</p>
           <p>Point 2</p>
-          <p>Point 3</p> -->
+          <p>Point 3</p> <ol><li></li></ol>-->
           <div class="d-grid gap-2">
             <button type="button" class="btn btn-lg btn-dark" value="28Jul" onclick="txtON(this)">View Details</button>
           </div>
@@ -435,7 +512,7 @@
 
         <!-- <p>what a Population </p>
         <p>hypothesis space, parameters, generative models and discriminative models</p>
-        <p>search in parameter space</p> -->
+        <p>search in parameter space</p> <ol><li></li></ol>-->
         <div class="d-grid gap-2">
           <button type="button" class="btn btn-lg btn-dark" value="29Jul" onclick="txtON(this)">View Details</button>
         </div>
@@ -463,7 +540,7 @@
 
         <!-- <p>what a Population </p>
         <p>hypothesis space, parameters, generative models and discriminative models</p>
-        <p>search in parameter space</p> -->
+        <p>search in parameter space</p> <ol><li></li></ol>-->
         <div class="d-grid gap-2">
           <button type="button" class="btn btn-lg btn-dark" value="30Jul" onclick="txtON(this)">View Details</button>
         </div>
@@ -490,7 +567,7 @@
 
         <!-- <p>what a Population </p>
         <p>hypothesis space, parameters, generative models and discriminative models</p>
-        <p>search in parameter space</p> -->
+        <p>search in parameter space</p> <ol><li></li></ol>-->
         <div class="d-grid gap-2">
           <button type="button" class="btn btn-lg btn-dark" value="3Aug" onclick="txtON(this)">View Details</button>
         </div>
@@ -528,7 +605,7 @@
 
         <!-- <p>what a Population </p>
         <p>hypothesis space, parameters, generative models and discriminative models</p>
-        <p>search in parameter space</p> -->
+        <p>search in parameter space</p> <ol><li></li></ol>-->
         <div class="d-grid gap-2">
           <button type="button" class="btn btn-lg btn-dark" value="4Aug" onclick="txtON(this)">View Details</button>
         </div>
@@ -556,7 +633,7 @@
 
           <!-- <p>what a Population </p>
           <p>hypothesis space, parameters, generative models and discriminative models</p>
-          <p>search in parameter space</p> -->
+          <p>search in parameter space</p> <ol><li></li></ol>-->
           <div class="d-grid gap-2">
             <button type="button" class="btn btn-lg btn-dark" value="6Aug" onclick="txtON(this)">View Details</button>
           </div>
@@ -586,7 +663,7 @@
 
           <!-- <p>what a Population </p>
           <p>hypothesis space, parameters, generative models and discriminative models</p>
-          <p>search in parameter space</p> -->
+          <p>search in parameter space</p> <ol><li></li></ol>-->
           <div class="d-grid gap-2">
             <button type="button" class="btn btn-lg btn-dark" value="10Aug" onclick="txtON(this)">View Details</button>
           </div>
@@ -617,7 +694,7 @@
 
             <!-- <p>what a Population </p>
             <p>hypothesis space, parameters, generative models and discriminative models</p>
-            <p>search in parameter space</p> -->
+            <p>search in parameter space</p> <ol><li></li></ol>-->
             <div class="d-grid gap-2">
               <button type="button" class="btn btn-lg btn-dark" value="17Aug" onclick="txtON(this)">View Details</button>
             </div>
@@ -648,7 +725,7 @@
 
               <!-- <p>what a Population </p>
               <p>hypothesis space, parameters, generative models and discriminative models</p>
-              <p>search in parameter space</p> -->
+              <p>search in parameter space</p> <ol><li></li></ol>-->
               <div class="d-grid gap-2">
                 <button type="button" class="btn btn-lg btn-dark" value="19Aug" onclick="txtON(this)">View Details</button>
               </div>
@@ -688,7 +765,7 @@
 
           <!-- <p>what a Population </p>
           <p>hypothesis space, parameters, generative models and discriminative models</p>
-          <p>search in parameter space</p> -->
+          <p>search in parameter space</p> <ol><li></li></ol>-->
           <div class="d-grid gap-2">
             <button type="button" class="btn btn-lg btn-dark" value="191Aug" onclick="txtON(this)">View Details</button>
           </div>
@@ -718,7 +795,7 @@
 
             <!-- <p>what a Population </p>
             <p>hypothesis space, parameters, generative models and discriminative models</p>
-            <p>search in parameter space</p> -->
+            <p>search in parameter space</p> <ol><li></li></ol>-->
             <div class="d-grid gap-2">
               <button type="button" class="btn btn-lg btn-dark" value="20Aug" onclick="txtON(this)">View Details</button>
             </div>
@@ -749,7 +826,7 @@
 
               <!-- <p>what a Population </p>
               <p>hypothesis space, parameters, generative models and discriminative models</p>
-              <p>search in parameter space</p> -->
+              <p>search in parameter space</p> <ol><li></li></ol>-->
               <div class="d-grid gap-2">
                 <button type="button" class="btn btn-lg btn-dark" value="21Aug" onclick="txtON(this)">View Details</button>
               </div>
@@ -780,7 +857,7 @@
 
                 <!-- <p>what a Population </p>
                 <p>hypothesis space, parameters, generative models and discriminative models</p>
-                <p>search in parameter space</p> -->
+                <p>search in parameter space</p> <ol><li></li></ol>-->
                 <div class="d-grid gap-2">
                   <button type="button" class="btn btn-lg btn-dark" value="22Aug" onclick="txtON(this)">View Details</button>
                 </div>
@@ -811,7 +888,7 @@
 
                   <!-- <p>what a Population </p>
                   <p>hypothesis space, parameters, generative models and discriminative models</p>
-                  <p>search in parameter space</p> -->
+                  <p>search in parameter space</p> <ol><li></li></ol>-->
                   <div class="d-grid gap-2">
                     <button type="button" class="btn btn-lg btn-dark" value="25Aug" onclick="txtON(this)">View Details</button>
                   </div>
@@ -842,7 +919,7 @@
 
                     <!-- <p>what a Population </p>
                     <p>hypothesis space, parameters, generative models and discriminative models</p>
-                    <p>search in parameter space</p> -->
+                    <p>search in parameter space</p> <ol><li></li></ol>-->
                     <div class="d-grid gap-2">
                       <button type="button" class="btn btn-lg btn-dark" value="28Aug" onclick="txtON(this)">View Details</button>
                     </div>
@@ -872,7 +949,7 @@
 
                       <!-- <p>what a Population </p>
                       <p>hypothesis space, parameters, generative models and discriminative models</p>
-                      <p>search in parameter space</p> -->
+                      <p>search in parameter space</p> <ol><li></li></ol>-->
                       <div class="d-grid gap-2">
                         <button type="button" class="btn btn-lg btn-dark" value="4Sep" onclick="txtON(this)">View Details</button>
                       </div>
@@ -902,7 +979,7 @@
 
                         <!-- <p>what a Population </p>
                         <p>hypothesis space, parameters, generative models and discriminative models</p>
-                        <p>search in parameter space</p> -->
+                        <p>search in parameter space</p> <ol><li></li></ol>-->
                         <div class="d-grid gap-2">
                           <button type="button" class="btn btn-lg btn-dark" value="9Sep" onclick="txtON(this)">View Details</button>
                         </div>
@@ -933,7 +1010,7 @@
 
                           <!-- <p>what a Population </p>
                           <p>hypothesis space, parameters, generative models and discriminative models</p>
-                          <p>search in parameter space</p> -->
+                          <p>search in parameter space</p> <ol><li></li></ol>-->
                           <div class="d-grid gap-2">
                             <button type="button" class="btn btn-lg btn-dark" value="11Sep" onclick="txtON(this)">View Details</button>
                           </div>
@@ -963,7 +1040,7 @@
             </ul>
             <!-- <p>Point 1</p>
             <p>Point 2</p>
-            <p>Point 3</p> -->
+            <p>Point 3</p> <ol><li></li></ol>-->
             <div class="d-grid gap-2">
               <button type="button" class="btn btn-lg btn-dark" value="14Sep" onclick="txtON(this)">View Details</button>
             </div>
@@ -999,7 +1076,7 @@
 
             <!-- <p>what a Population </p>
             <p>hypothesis space, parameters, generative models and discriminative models</p>
-            <p>search in parameter space</p> -->
+            <p>search in parameter space</p> <ol><li></li></ol>-->
             <div class="d-grid gap-2">
               <button type="button" class="btn btn-lg btn-dark" value="16Sep" onclick="txtON(this)">View Details</button>
             </div>
@@ -1025,7 +1102,7 @@
 
             <!-- <p>what a Population </p>
             <p>hypothesis space, parameters, generative models and discriminative models</p>
-            <p>search in parameter space</p> -->
+            <p>search in parameter space</p> <ol><li></li></ol>-->
             <div class="d-grid gap-2">
               <button type="button" class="btn btn-lg btn-dark" value="18Sep" onclick="txtON(this)">View Details</button>
             </div>
@@ -1052,7 +1129,7 @@
 
             <!-- <p>what a Population </p>
             <p>hypothesis space, parameters, generative models and discriminative models</p>
-            <p>search in parameter space</p> -->
+            <p>search in parameter space</p> <ol><li></li></ol>-->
             <div class="d-grid gap-2">
               <button type="button" class="btn btn-lg btn-dark" value="181Sep" onclick="txtON(this)">View Details</button>
             </div>
@@ -1091,7 +1168,7 @@
 
             <!-- <p>what a Population </p>
             <p>hypothesis space, parameters, generative models and discriminative models</p>
-            <p>search in parameter space</p> -->
+            <p>search in parameter space</p> <ol><li></li></ol><ol><li></li></ol>-->
             <div class="d-grid gap-2">
               <button type="button" class="btn btn-lg btn-dark" value="21Sep" onclick="txtON(this)">View Details</button>
             </div>
@@ -1118,7 +1195,7 @@
 
             <!-- <p>what a Population </p>
             <p>hypothesis space, parameters, generative models and discriminative models</p>
-            <p>search in parameter space</p> -->
+            <p>search in parameter space</p> <ol><li></li></ol>-->
             <div class="d-grid gap-2">
               <button type="button" class="btn btn-lg btn-dark" value="23Sep" onclick="txtON(this)">View Details</button>
             </div>
@@ -1145,7 +1222,7 @@
 
             <!-- <p>what a Population </p>
             <p>hypothesis space, parameters, generative models and discriminative models</p>
-            <p>search in parameter space</p> -->
+            <p>search in parameter space</p> <ol><li></li></ol>-->
             <div class="d-grid gap-2">
               <button type="button" class="btn btn-lg btn-dark" value="10Oct" onclick="txtON(this)">View Details</button>
             </div>
@@ -1171,7 +1248,7 @@
 
             <!-- <p>what a Population </p>
             <p>hypothesis space, parameters, generative models and discriminative models</p>
-            <p>search in parameter space</p> -->
+            <p>search in parameter space</p> <ol><li></li></ol>-->
             <div class="d-grid gap-2">
               <button type="button" class="btn btn-lg btn-dark" value="12Oct" onclick="txtON(this)">View Details</button>
             </div>
@@ -1196,7 +1273,7 @@
 
             <!-- <p>what a Population </p>
             <p>hypothesis space, parameters, generative models and discriminative models</p>
-            <p>search in parameter space</p> -->
+            <p>search in parameter space</p> <ol><li></li></ol>-->
             <div class="d-grid gap-2">
               <button type="button" class="btn btn-lg btn-dark" value="14Oct" onclick="txtON(this)">View Details</button>
             </div>
@@ -1222,7 +1299,7 @@
 
             <!-- <p>what a Population </p>
             <p>hypothesis space, parameters, generative models and discriminative models</p>
-            <p>search in parameter space</p> -->
+            <p>search in parameter space</p> <ol><li></li></ol>-->
             <div class="d-grid gap-2">
               <button type="button" class="btn btn-lg btn-dark" value="19Oct" onclick="txtON(this)">View Details</button>
             </div>
@@ -1247,7 +1324,7 @@
 
             <!-- <p>what a Population </p>
             <p>hypothesis space, parameters, generative models and discriminative models</p>
-            <p>search in parameter space</p> -->
+            <p>search in parameter space</p> <ol><li></li></ol>-->
             <div class="d-grid gap-2">
               <button type="button" class="btn btn-lg btn-dark" value="21Oct" onclick="txtON(this)">View Details</button>
             </div>
@@ -1273,7 +1350,7 @@
 
             <!-- <p>what a Population </p>
             <p>hypothesis space, parameters, generative models and discriminative models</p>
-            <p>search in parameter space</p> -->
+            <p>search in parameter space</p> <ol><li></li></ol>-->
             <div class="d-grid gap-2">
               <button type="button" class="btn btn-lg btn-dark" value="23Oct" onclick="txtON(this)">View Details</button>
             </div>
@@ -1298,7 +1375,7 @@
 
             <!-- <p>what a Population </p>
             <p>hypothesis space, parameters, generative models and discriminative models</p>
-            <p>search in parameter space</p> -->
+            <p>search in parameter space</p> <ol><li></li></ol>-->
             <div class="d-grid gap-2">
               <button type="button" class="btn btn-lg btn-dark" value="26Oct" onclick="txtON(this)">View Details</button>
             </div>
@@ -1332,7 +1409,7 @@
 
             <!-- <p>what a Population </p>
             <p>hypothesis space, parameters, generative models and discriminative models</p>
-            <p>search in parameter space</p> -->
+            <p>search in parameter space</p> <ol><li></li></ol>-->
             <div class="d-grid gap-2">
               <button type="button" class="btn btn-lg btn-dark" value="27Oct" onclick="txtON(this)">View Details</button>
             </div>
@@ -1370,7 +1447,7 @@
 
             <!-- <p>what a Population </p>
             <p>hypothesis space, parameters, generative models and discriminative models</p>
-            <p>search in parameter space</p> -->
+            <p>search in parameter space</p> <ol><li></li></ol><ol><li></li></ol>-->
             <div class="d-grid gap-2">
               <button type="button" class="btn btn-lg btn-dark" value="2Nov" onclick="txtON(this)">View Details</button>
             </div>
@@ -1396,7 +1473,7 @@
 
             <!-- <p>what a Population </p>
             <p>hypothesis space, parameters, generative models and discriminative models</p>
-            <p>search in parameter space</p> -->
+            <p>search in parameter space</p> <ol><li></li></ol>-->
             <div class="d-grid gap-2">
               <button type="button" class="btn btn-lg btn-dark" value="4Nov" onclick="txtON(this)">View Details</button>
             </div>
@@ -1435,7 +1512,7 @@
 
             <!-- <p>what a Population </p>
             <p>hypothesis space, parameters, generative models and discriminative models</p>
-            <p>search in parameter space</p> -->
+            <p>search in parameter space</p> <ol><li></li></ol>-->
             <div class="d-grid gap-2">
               <button type="button" class="btn btn-lg btn-dark" value="6Nov" onclick="txtON(this)">View Details</button>
             </div>
@@ -1462,7 +1539,7 @@
 
             <!-- <p>what a Population </p>
             <p>hypothesis space, parameters, generative models and discriminative models</p>
-            <p>search in parameter space</p> -->
+            <p>search in parameter space</p> <ol><li></li></ol>-->
             <div class="d-grid gap-2">
               <button type="button" class="btn btn-lg btn-dark">View Details</button>
             </div>
@@ -1486,7 +1563,7 @@
 
             <!-- <p>what a Population </p>
             <p>hypothesis space, parameters, generative models and discriminative models</p>
-            <p>search in parameter space</p> -->
+            <p>search in parameter space</p> <ol><li></li></ol>-->
             <div class="d-grid gap-2">
               <button type="button" class="btn btn-lg btn-dark" value="11Nov" onclick="txtON(this)">View Details</button>
             </div>
@@ -1512,7 +1589,7 @@
 
             <!-- <p>what a Population </p>
             <p>hypothesis space, parameters, generative models and discriminative models</p>
-            <p>search in parameter space</p> -->
+            <p>search in parameter space</p> <ol><li></li></ol><ol><li></li></ol><ol><li></li></ol>-->
             <div class="d-grid gap-2">
               <button type="button" class="btn btn-lg btn-dark" value="13Nov" onclick="txtON(this)">View Details</button>
             </div>
@@ -1538,7 +1615,7 @@
 
             <!-- <p>what a Population </p>
             <p>hypothesis space, parameters, generative models and discriminative models</p>
-            <p>search in parameter space</p> -->
+            <p>search in parameter space</p> <ol><li></li></ol><ol><li></li></ol>-->
             <div class="d-grid gap-2">
               <button type="button" class="btn btn-lg btn-dark" value="16Nov" onclick="txtON(this)">View Details</button>
             </div>
@@ -1564,7 +1641,7 @@
 
             <!-- <p>what a Population </p>
             <p>hypothesis space, parameters, generative models and discriminative models</p>
-            <p>search in parameter space</p> -->
+            <p>search in parameter space</p> <ol><li></li></ol>-->
             <div class="d-grid gap-2">
               <button type="button" class="btn btn-lg btn-dark" value="20Nov" onclick="txtON(this)">View Details</button>
             </div>
@@ -1590,7 +1667,7 @@
 
             <!-- <p>what a Population </p>
             <p>hypothesis space, parameters, generative models and discriminative models</p>
-            <p>search in parameter space</p> -->
+            <p>search in parameter space</p> <ol><li></li></ol>-->
             <div class="d-grid gap-2">
               <button type="button" class="btn btn-lg btn-dark" value="2Dec" onclick="txtON(this)">View Details</button>
             </div>
@@ -1616,7 +1693,7 @@
 
             <!-- <p>what a Population </p>
             <p>hypothesis space, parameters, generative models and discriminative models</p>
-            <p>search in parameter space</p> -->
+            <p>search in parameter space</p> <ol><li></li></ol>-->
             <div class="d-grid gap-2">
               <button type="button" class="btn btn-lg btn-dark" value="4Dec" onclick="txtON(this)">View Details</button>
             </div>
@@ -1643,7 +1720,7 @@
 
             <!-- <p>what a Population </p>
             <p>hypothesis space, parameters, generative models and discriminative models</p>
-            <p>search in parameter space</p> -->
+            <p>search in parameter space</p> <ol><li></li></ol><ol><li></li></ol>-->
             <div class="d-grid gap-2">
               <button type="button" class="btn btn-lg btn-dark" value="7Dec" onclick="txtON(this)">View Details</button>
             </div>
@@ -1670,7 +1747,7 @@
 
             <!-- <p>what a Population </p>
             <p>hypothesis space, parameters, generative models and discriminative models</p>
-            <p>search in parameter space</p> -->
+            <p>search in parameter space</p> <ol><li></li></ol>-->
             <div class="d-grid gap-2">
               <button type="button" class="btn btn-lg btn-dark" value="9Dec" onclick="txtON(this)">View Details</button>
             </div>
@@ -1697,7 +1774,7 @@
 
             <!-- <p>what a Population </p>
             <p>hypothesis space, parameters, generative models and discriminative models</p>
-            <p>search in parameter space</p> -->
+            <p>search in parameter space</p> <ol><li></li></ol>-->
             <div class="d-grid gap-2">
               <button type="button" class="btn btn-lg btn-dark" value="11Dec" onclick="txtON(this)">View Details</button>
             </div>
@@ -1739,7 +1816,7 @@
 
             <!-- <p>what a Population </p>
             <p>hypothesis space, parameters, generative models and discriminative models</p>
-            <p>search in parameter space</p> -->
+            <p>search in parameter space</p> <ol><li></li></ol>-->
             <div class="d-grid gap-2">
               <button type="button" class="btn btn-lg btn-dark" value="14Dec" onclick="txtON(this)">View Details</button>
             </div>
