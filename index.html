@@ -7,6 +7,7 @@
     <title> Sabudh Blog </title>
     <link rel="stylesheet" href="css/style.css">
     <script src="https://kit.fontawesome.com/aef88a83f6.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.0/jquery.min.js"></script>
 
     <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap" rel="stylesheet">
@@ -24,6 +25,12 @@
         var y = elem.id;
         document.getElementById(y).style.display = "none";
       }
+
+      $(document).ready(function() {
+        $('body').bind('cut copy', function(e) {
+          e.preventDefault();
+        });
+      });
     </script>
 
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -452,7 +459,28 @@
             <button type="button" class="btn btn-lg btn-dark" value="27Jul" onclick="txtON(this)">View Details</button>
           </div>
           <div id="27Jul" class="overlay" onclick="txtOFF(this)">
-            <div class="text">Overlay Text 1</div>
+            <div class="text">
+              <ol>
+                <li>Bias is the difference between the average prediction of our model and the correct value which we are trying to predict. Model with high bias pays very little attention to the training data and oversimplifies the model. It always leads to high error on training and test data.</li>
+                <li>Variance is the variability of model prediction for a given data point or a value which tells us spread of our data. Model with high variance pays a lot of attention to training data and does not generalize on the data which it hasn’t seen before. As a result, such models perform very well on training data but has high error rates on test data.</li>
+                <li>If our model is too simple and has very few parameters then it may have high bias and low variance. On the other hand if our model has large number of parameters then it’s going to have high variance and low bias. So we need to find the right/good balance without overfitting and underfitting the data.
+                </br>This tradeoff in complexity is why there is a tradeoff between bias and variance. An algorithm can’t be more complex and less complex at the same time.</li>
+                <li>Ridge Regression:
+                  <ul>
+                    <li>It shrinks the parameters, therefore it is mostly used to prevent multicollinearity.
+                    <li>It reduces the model complexity by coefficient shrinkage.
+                    <li>It uses L2 regularization technique.
+                  </ul>
+                </li>
+                <li>LASSO (Least Absolute Shrinkage Selector Operator)</li>
+                <li>Lasso Regression:
+                  <ul>
+                    <li>It uses L1 regularization technique
+                    <li>It is generally used when we have more number of features, because it automatically does feature selection.
+                  </ul>
+                </li>
+              </ol>
+            </div>
           </div>
         </div>
       </div>
@@ -468,9 +496,9 @@
           <h2>28-July-2020</h2>
           <!-- <p></p> -->
           <ul>
-            <li>Supervise Vs Unsupervise Learning</li>
+            <li>Supervised Vs Unsupervised Learning</li>
             <li>Generative Models</li>
-            <li>Descriminative Models</li>
+            <li>Discriminative Models</li>
             <br>
             <br>
           </ul>
@@ -481,7 +509,14 @@
             <button type="button" class="btn btn-lg btn-dark" value="28Jul" onclick="txtON(this)">View Details</button>
           </div>
           <div id="28Jul" class="overlay" onclick="txtOFF(this)">
-            <div class="text">Overlay Text 1</div>
+            <div class="text">
+              <ol>
+                <li>In a supervised learning model, the algorithm learns on a labeled dataset, providing an answer key that the algorithm can use to evaluate its accuracy on training data. An unsupervised model, in contrast, provides unlabeled data that the algorithm tries to make sense of by extracting features and patterns on its own.</li>
+                <li>Semi-supervised learning takes a middle ground. It uses a small amount of labeled data bolstering a larger set of unlabeled data. And reinforcement learning trains an algorithm with a reward system, providing feedback when an artificial intelligence agent performs the best action in a particular situation.</li>
+                <li></li>
+                <li></li>
+              </ol>
+            </div>
           </div>
         </div>
       </div>
