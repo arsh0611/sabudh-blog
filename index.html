@@ -92,7 +92,15 @@
             <button type="button" class="btn btn-lg btn-dark" value="8Jul" onclick="txtON(this)">View Details</button>
           </div>
           <div id="8Jul" class="overlay" onclick="txtOFF(this)">
-            <div class="text">Overlay Text 1</div>
+            <div class="text">
+           <ol>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+           </ol>
+          </div>
           </div>
           -->
 
@@ -513,8 +521,21 @@
               <ol>
                 <li>In a supervised learning model, the algorithm learns on a labeled dataset, providing an answer key that the algorithm can use to evaluate its accuracy on training data. An unsupervised model, in contrast, provides unlabeled data that the algorithm tries to make sense of by extracting features and patterns on its own.</li>
                 <li>Semi-supervised learning takes a middle ground. It uses a small amount of labeled data bolstering a larger set of unlabeled data. And reinforcement learning trains an algorithm with a reward system, providing feedback when an artificial intelligence agent performs the best action in a particular situation.</li>
-                <li></li>
-                <li></li>
+                <li>Generative classifiers:
+                  <ul>
+                    <li>Assume some functional form for P(Y), P(X|Y)
+                    <li>Estimate parameters of P(X|Y), P(Y) directly from training data
+                    <li>Use Bayes rule to calculate P(Y |X)
+                    <li> Naïve Bayes, Bayesian networks, Markov random fields, ‌Hidden Markov Models (HMM)
+                  </ul>
+                </li>
+                <li>Discriminative classifiers:
+                  <ul>
+                    <li>Assume some functional form for P(Y|X)
+                    <li>Estimate parameters of P(Y|X) directly from training data
+                    <li> ‌Logistic regression, ‌Traditional neural networks, Nearest neighbour, ‌Scalar Vector Machine
+                  </ul>
+                </li>
               </ol>
             </div>
           </div>
@@ -552,7 +573,14 @@
           <button type="button" class="btn btn-lg btn-dark" value="29Jul" onclick="txtON(this)">View Details</button>
         </div>
         <div id="29Jul" class="overlay" onclick="txtOFF(this)">
-          <div class="text">Overlay Text 1</div>
+          <div class="text">
+            <ol>
+              <li>A confidence interval is a bounds on the estimate of a population variable. It is an interval statistic used to quantify the uncertainty on an estimate.</li>
+              <li>The value of a confidence interval is its ability to quantify the uncertainty of the estimate. It provides both a lower and upper bound and a likelihood. Taken as a radius measure alone, the confidence interval is often referred to as the margin of error and may be used to graphically depict the uncertainty of an estimate on graphs through the use of error bars</li>
+              <li>Classification accuracy or classification error is a proportion or a ratio. It describes the proportion of correct or incorrect predictions made by the model. Each prediction is a binary decision that could be correct or incorrect. </li>
+              <li>The assumptions that underlie parametric confidence intervals are often violated. The predicted variable sometimes isn’t normally distributed, and even when it is, the variance of the normal distribution might not be equal at all levels of the predictor variable.</li>
+            </ol>
+          </div>
         </div>
     </div>
     </div>
@@ -570,7 +598,7 @@
           <li>Model Selection</li>
           <li>Cross Validation</li>
           <li>Bootstrapping</li>
-          <li>Chi Square Statistic</li>
+          <li>Chi Square Test</li>
         </ul>
 
         <!-- <p>what a Population </p>
@@ -580,7 +608,26 @@
           <button type="button" class="btn btn-lg btn-dark" value="30Jul" onclick="txtON(this)">View Details</button>
         </div>
         <div id="30Jul" class="overlay" onclick="txtOFF(this)">
-          <div class="text">Overlay Text 1</div>
+          <div class="text">
+            <ol>
+              <li>
+                <ul>
+                  <li>Model selection is the process of choosing one among many candidate models for a predictive modeling problem.
+                  <li>There may be many competing concerns when performing model selection beyond model performance, such as complexity, maintainability, and available resources.
+                  <li>The two main classes of model selection techniques are probabilistic measures and resampling methods.
+                <ul>
+              </li>
+              <li>Cross-validation is a technique in which we train our model using the subset of the data-set and then evaluate using the complementary subset of the data-set.
+                <ul>
+                  <li>Reserve some portion of sample data-set.
+                  <li>Using the rest data-set train the model.
+                  <li>Test the model using the reserve portion of the data-set.
+                </ul>
+              </li>
+              <li>The bootstrap method is a resampling technique used to estimate statistics on a population by sampling a dataset with replacement.</br>It can be used to estimate summary statistics such as the mean or standard deviation. It is used in applied machine learning to estimate the skill of machine learning models when making predictions on data not included in the training data.</li>
+              <li>Chi-square test in hypothesis testing is used to test the hypothesis about the distribution of observations/frequencies in different categories.</li>
+            </ol>
+          </div>
         </div>
     </div>
     </div>
@@ -607,7 +654,18 @@
           <button type="button" class="btn btn-lg btn-dark" value="3Aug" onclick="txtON(this)">View Details</button>
         </div>
         <div id="3Aug" class="overlay" onclick="txtOFF(this)">
-          <div class="text">Overlay Text 1</div>
+          <div class="text">
+            <ol>
+              <li>A Confusion matrix is an N x N matrix used for evaluating the performance of a classification model, where N is the number of target classes. The matrix compares the actual target values with those predicted by the machine learning model. This gives us a holistic view of how well our classification model is performing and what kinds of errors it is making.</li>
+              <li>Precision tells us how many of the correctly predicted cases actually turned out to be positive.</li>
+              <li>Precision = TruePositives / (TruePositives + FalsePositives)</li>
+              <li>Recall tells us how many of the actual positive cases we were able to predict correctly with our model.</li>
+              <li>Recall = TruePositives / (TruePositives + FalseNegatives)</li>
+              <li>The kappa statistic is frequently used to test interrater reliability. The importance of rater reliability lies in the fact that it represents the extent to which the data collected in the study are correct representations of the variables measured.</li>
+              <li>The Receiver Operator Characteristic (ROC) curve is an evaluation metric for binary classification problems. It is a probability curve that plots the TPR against FPR at various threshold values and essentially separates the ‘signal’ from the ‘noise’. </li>
+              <li>The Area Under the Curve (AUC) is the measure of the ability of a classifier to distinguish between classes and is used as a summary of the ROC curve.</br>The higher the AUC, the better the performance of the model at distinguishing between the positive and negative classes.</li>
+            </ol>
+          </div>
         </div>
     </div>
     </div>
@@ -645,7 +703,29 @@
           <button type="button" class="btn btn-lg btn-dark" value="4Aug" onclick="txtON(this)">View Details</button>
         </div>
         <div id="4Aug" class="overlay" onclick="txtOFF(this)">
-          <div class="text">Overlay Text 1</div>
+          <div class="text">
+           <ol>
+            <li>Clustering is the task of dividing the population or data points into a number of groups such that data points in the same groups are more similar to other data points in the same group and dissimilar to the data points in other groups. It is basically a collection of objects on the basis of similarity and dissimilarity between them.</li>
+            <li>Clustering is very much important as it determines the intrinsic grouping among the unlabeled data present. There are no criteria for a good clustering. It depends on the user, what is the criteria they may use which satisfy their need.</li>
+            <li>Clustering Methods :
+              <ul>
+                 <li>Density-Based Methods</li>
+                 <li>Hierarchical Based Methods</li>
+                 <li>Partitioning Methods</li>
+                 <li>Grid-based Methods</li>
+               </ul>
+            </li>
+            <li>Expectation-Maximization algorithm can be used for the latent variables (variables that are not directly observable and are actually inferred from the values of the other observed variables) too in order to predict their values with the condition that the general form of probability distribution governing those latent variables is known to us.</li>
+            <li>Usage of EM algorithm:
+              <ul>
+                 <li>It can be used to fill the missing data in a sample.</li>
+                 <li>It can be used as the basis of unsupervised learning of clusters.</li>
+                 <li>It can be used for the purpose of estimating the parameters of Hidden Markov Model (HMM).</li>
+                 <li>It can be used for discovering the values of latent variables.</li>
+               </ul>
+            </li>
+           </ol>
+          </div>
         </div>
     </div>
     </div>
@@ -673,7 +753,41 @@
             <button type="button" class="btn btn-lg btn-dark" value="6Aug" onclick="txtON(this)">View Details</button>
           </div>
           <div id="6Aug" class="overlay" onclick="txtOFF(this)">
-            <div class="text">Overlay Text 1</div>
+            <div class="text">
+           <ol>
+             <li>Expectation-Maximization algorithm can be used for the latent variables (variables that are not directly observable and are actually inferred from the values of the other observed variables) too in order to predict their values with the condition that the general form of probability distribution governing those latent variables is known to us.</li>
+             <li>Usage of EM algorithm:
+               <ul>
+                  <li>It can be used to fill the missing data in a sample.</li>
+                  <li>It can be used as the basis of unsupervised learning of clusters.</li>
+                  <li>It can be used for the purpose of estimating the parameters of Hidden Markov Model (HMM).</li>
+                  <li>It can be used for discovering the values of latent variables.</li>
+                </ul>
+             </li>
+             <li>Advantages of EM algorithm
+               <ul>
+                  <li>It is always guaranteed that likelihood will increase with each iteration.</li>
+                  <li>The E-step and M-step are often pretty easy for many problems in terms of implementation.</li>
+                  <li>Solutions to the M-steps often exist in the closed form.</li>
+                </ul>
+             </li>
+             <li>Disadvantages of EM algorithm
+               <ul>
+                  <li>It has slow convergence.</li>
+                  <li>It makes convergence to the local optima only.</li>
+                  <li>It requires both the probabilities, forward and backward (numerical optimization requires only forward probability).</li>
+                </ul>
+             </li>
+            <li>K means: The algorithm will categorize the items into k groups of similarity. To calculate that similarity, we will use the euclidean distance as measurement.</li>
+            <li>The algorithm works as follows
+              <ul>
+                 <li>Initialize k points, called means, randomly</li>
+                 <li>Categorize each item to its closest mean and we update the mean’s coordinates, which are the averages of the items categorized in that mean so far.</li>
+                 <li>Repeat the process for a given number of iterations and at the end, we have our clusters.</li>
+               </ul>
+            </li>
+           </ol>
+          </div>
           </div>
       </div>
       </div>
@@ -689,7 +803,6 @@
           <ul>
             <li>K-means</li>
             <li>Hierarchical clustering</li>
-            <li>CURE</li>
 
             <!-- <li>Kappa Statistic</li>
             <li>ROC Curve</li> -->
@@ -703,7 +816,26 @@
             <button type="button" class="btn btn-lg btn-dark" value="10Aug" onclick="txtON(this)">View Details</button>
           </div>
           <div id="10Aug" class="overlay" onclick="txtOFF(this)">
-            <div class="text">Overlay Text 1</div>
+            <div class="text">
+           <ol>
+             <li>K means: The algorithm will categorize the items into k groups of similarity. To calculate that similarity, we will use the euclidean distance as measurement.</li>
+             <li>The algorithm works as follows
+               <ul>
+                  <li>Initialize k points, called means, randomly</li>
+                  <li>Categorize each item to its closest mean and we update the mean’s coordinates, which are the averages of the items categorized in that mean so far.</li>
+                  <li>Repeat the process for a given number of iterations and at the end, we have our clusters.</li>
+                </ul>
+             </li>
+             <li>A Hierarchical clustering method works via grouping data into a tree of clusters. Hierarchical clustering begins by treating every data points as a separate cluster. Then, it repeatedly executes the subsequent steps:
+               <ul>
+                  <li>Identify the 2 clusters which can be closest together</li>
+                  <li>Merge the 2 maximum comparable clusters. We need to continue these steps until all the clusters are merged together.</li>
+                </ul>
+             </li>
+            <li></li>
+            <li></li>
+           </ol>
+          </div>
           </div>
       </div>
       </div>
@@ -734,7 +866,28 @@
               <button type="button" class="btn btn-lg btn-dark" value="17Aug" onclick="txtON(this)">View Details</button>
             </div>
             <div id="17Aug" class="overlay" onclick="txtOFF(this)">
-              <div class="text">Overlay Text 1</div>
+              <div class="text">
+           <ol>
+            <li>Balanced Iterative Reducing and Clustering using Hierarchies (BIRCH) is a clustering algorithm that can cluster large datasets by first generating a small and compact summary of the the large dataset that retains as much information as possible. This smaller summary is then clustered instead of clustering the larger dataset.</li>
+            <li>BIRCH is often used to complement other clustering algorithms by creating a summary of the dataset that the other clustering algorithm can now use.</li>
+            <li>Parameters of BIRCH Algorithm :
+              <ul>
+                 <li>hreshold :  threshold is the maximum number of data points a sub-cluster in the leaf node of the CF tree can hold.</li>
+                 <li>branching_factor : This parameter specifies the maximum number of CF sub-clusters in each node (internal node).</li>
+                 <li>n_clusters : The number of clusters to be returned after the entire BIRCH algorithm is complete i.e., number of clusters after the final clustering step. If set to None, the final clustering step is not performed and intermediate clusters are returned.</li>
+               </ul>
+            </li>
+            <li>Density-based spatial clustering of applications with noise (DBSCAN)</li>
+            <li>The key idea is that for each point of a cluster, the neighborhood of a given radius has to contain at least a minimum number of points.</li>
+            <li>DBSCAN algorithm requires two parameters:
+              <ul>
+                 <li>eps : It defines the neighborhood around a data point i.e. if the distance between two points is lower or equal to ‘eps’ then they are considered as neighbors.</li>
+                 <li>MinPts: Minimum number of neighbors (data points) within eps radius. Larger the dataset, the larger value of MinPts must be chosen.</li>
+               </ul>
+            </li>
+
+           </ol>
+          </div>
             </div>
         </div>
         </div>
@@ -765,7 +918,15 @@
                 <button type="button" class="btn btn-lg btn-dark" value="19Aug" onclick="txtON(this)">View Details</button>
               </div>
               <div id="19Aug" class="overlay" onclick="txtOFF(this)">
-                <div class="text">Overlay Text 1</div>
+                <div class="text">
+           <ol>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+           </ol>
+          </div>
               </div>
           </div>
           </div>
@@ -805,7 +966,15 @@
             <button type="button" class="btn btn-lg btn-dark" value="191Aug" onclick="txtON(this)">View Details</button>
           </div>
           <div id="191Aug" class="overlay" onclick="txtOFF(this)">
-            <div class="text">Overlay Text 1</div>
+            <div class="text">
+           <ol>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+           </ol>
+          </div>
           </div>
       </div>
       </div>
@@ -835,7 +1004,15 @@
               <button type="button" class="btn btn-lg btn-dark" value="20Aug" onclick="txtON(this)">View Details</button>
             </div>
             <div id="20Aug" class="overlay" onclick="txtOFF(this)">
-              <div class="text">Overlay Text 1</div>
+              <div class="text">
+           <ol>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+           </ol>
+          </div>
             </div>
         </div>
         </div>
@@ -866,7 +1043,15 @@
                 <button type="button" class="btn btn-lg btn-dark" value="21Aug" onclick="txtON(this)">View Details</button>
               </div>
               <div id="21Aug" class="overlay" onclick="txtOFF(this)">
-                <div class="text">Overlay Text 1</div>
+                <div class="text">
+           <ol>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+           </ol>
+          </div>
               </div>
           </div>
           </div>
@@ -897,7 +1082,15 @@
                   <button type="button" class="btn btn-lg btn-dark" value="22Aug" onclick="txtON(this)">View Details</button>
                 </div>
                 <div id="22Aug" class="overlay" onclick="txtOFF(this)">
-                  <div class="text">Overlay Text 1</div>
+                  <div class="text">
+           <ol>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+           </ol>
+          </div>
                 </div>
             </div>
             </div>
@@ -928,7 +1121,15 @@
                     <button type="button" class="btn btn-lg btn-dark" value="25Aug" onclick="txtON(this)">View Details</button>
                   </div>
                   <div id="25Aug" class="overlay" onclick="txtOFF(this)">
-                    <div class="text">Overlay Text 1</div>
+                    <div class="text">
+           <ol>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+           </ol>
+          </div>
                   </div>
               </div>
               </div>
@@ -959,7 +1160,15 @@
                       <button type="button" class="btn btn-lg btn-dark" value="28Aug" onclick="txtON(this)">View Details</button>
                     </div>
                     <div id="28Aug" class="overlay" onclick="txtOFF(this)">
-                      <div class="text">Overlay Text 1</div>
+                      <div class="text">
+           <ol>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+           </ol>
+          </div>
                     </div>
                 </div>
                 </div>
@@ -989,7 +1198,15 @@
                         <button type="button" class="btn btn-lg btn-dark" value="4Sep" onclick="txtON(this)">View Details</button>
                       </div>
                       <div id="4Sep" class="overlay" onclick="txtOFF(this)">
-                        <div class="text">Overlay Text 1</div>
+                        <div class="text">
+           <ol>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+           </ol>
+          </div>
                       </div>
                   </div>
                   </div>
@@ -1019,7 +1236,15 @@
                           <button type="button" class="btn btn-lg btn-dark" value="9Sep" onclick="txtON(this)">View Details</button>
                         </div>
                         <div id="9Sep" class="overlay" onclick="txtOFF(this)">
-                          <div class="text">Overlay Text 1</div>
+                          <div class="text">
+           <ol>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+           </ol>
+          </div>
                         </div>
                     </div>
                     </div>
@@ -1050,7 +1275,15 @@
                             <button type="button" class="btn btn-lg btn-dark" value="11Sep" onclick="txtON(this)">View Details</button>
                           </div>
                           <div id="11Sep" class="overlay" onclick="txtOFF(this)">
-                            <div class="text">Overlay Text 1</div>
+                            <div class="text">
+           <ol>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+           </ol>
+          </div>
                           </div>
                       </div>
                       </div>
@@ -1080,7 +1313,15 @@
               <button type="button" class="btn btn-lg btn-dark" value="14Sep" onclick="txtON(this)">View Details</button>
             </div>
             <div id="14Sep" class="overlay" onclick="txtOFF(this)">
-              <div class="text">Overlay Text 1</div>
+              <div class="text">
+           <ol>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+           </ol>
+          </div>
             </div>
           </div>
         </div>
@@ -1116,7 +1357,15 @@
               <button type="button" class="btn btn-lg btn-dark" value="16Sep" onclick="txtON(this)">View Details</button>
             </div>
             <div id="16Sep" class="overlay" onclick="txtOFF(this)">
-              <div class="text">Overlay Text 1</div>
+              <div class="text">
+           <ol>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+           </ol>
+          </div>
             </div>
         </div>
         </div>
@@ -1142,7 +1391,15 @@
               <button type="button" class="btn btn-lg btn-dark" value="18Sep" onclick="txtON(this)">View Details</button>
             </div>
             <div id="18Sep" class="overlay" onclick="txtOFF(this)">
-              <div class="text">Overlay Text 1</div>
+              <div class="text">
+           <ol>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+           </ol>
+          </div>
             </div>
         </div>
         </div>
@@ -1169,7 +1426,15 @@
               <button type="button" class="btn btn-lg btn-dark" value="181Sep" onclick="txtON(this)">View Details</button>
             </div>
             <div id="181Sep" class="overlay" onclick="txtOFF(this)">
-              <div class="text">Overlay Text 1</div>
+              <div class="text">
+           <ol>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+           </ol>
+          </div>
             </div>
         </div>
         </div>
@@ -1208,7 +1473,15 @@
               <button type="button" class="btn btn-lg btn-dark" value="21Sep" onclick="txtON(this)">View Details</button>
             </div>
             <div id="21Sep" class="overlay" onclick="txtOFF(this)">
-              <div class="text">Overlay Text 1</div>
+              <div class="text">
+           <ol>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+           </ol>
+          </div>
             </div>
         </div>
         </div>
@@ -1235,7 +1508,15 @@
               <button type="button" class="btn btn-lg btn-dark" value="23Sep" onclick="txtON(this)">View Details</button>
             </div>
             <div id="23Sep" class="overlay" onclick="txtOFF(this)">
-              <div class="text">Overlay Text 1</div>
+              <div class="text">
+           <ol>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+           </ol>
+          </div>
             </div>
         </div>
         </div>
@@ -1262,7 +1543,15 @@
               <button type="button" class="btn btn-lg btn-dark" value="10Oct" onclick="txtON(this)">View Details</button>
             </div>
             <div id="10Oct" class="overlay" onclick="txtOFF(this)">
-              <div class="text">Overlay Text 1</div>
+              <div class="text">
+           <ol>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+           </ol>
+          </div>
             </div>
         </div>
         </div>
@@ -1288,7 +1577,15 @@
               <button type="button" class="btn btn-lg btn-dark" value="12Oct" onclick="txtON(this)">View Details</button>
             </div>
             <div id="12Oct" class="overlay" onclick="txtOFF(this)">
-              <div class="text">Overlay Text 1</div>
+              <div class="text">
+           <ol>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+           </ol>
+          </div>
             </div>
         </div>
         </div>
@@ -1313,7 +1610,15 @@
               <button type="button" class="btn btn-lg btn-dark" value="14Oct" onclick="txtON(this)">View Details</button>
             </div>
             <div id="14Oct" class="overlay" onclick="txtOFF(this)">
-              <div class="text">Overlay Text 1</div>
+              <div class="text">
+           <ol>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+           </ol>
+          </div>
             </div>
         </div>
         </div>
@@ -1339,7 +1644,15 @@
               <button type="button" class="btn btn-lg btn-dark" value="19Oct" onclick="txtON(this)">View Details</button>
             </div>
             <div id="19Oct" class="overlay" onclick="txtOFF(this)">
-              <div class="text">Overlay Text 1</div>
+              <div class="text">
+           <ol>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+           </ol>
+          </div>
             </div>
         </div>
         </div>
@@ -1364,7 +1677,15 @@
               <button type="button" class="btn btn-lg btn-dark" value="21Oct" onclick="txtON(this)">View Details</button>
             </div>
             <div id="21Oct" class="overlay" onclick="txtOFF(this)">
-              <div class="text">Overlay Text 1</div>
+              <div class="text">
+           <ol>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+           </ol>
+          </div>
             </div>
         </div>
         </div>
@@ -1390,7 +1711,15 @@
               <button type="button" class="btn btn-lg btn-dark" value="23Oct" onclick="txtON(this)">View Details</button>
             </div>
             <div id="23Oct" class="overlay" onclick="txtOFF(this)">
-              <div class="text">Overlay Text 1</div>
+              <div class="text">
+           <ol>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+           </ol>
+          </div>
             </div>
         </div>
         </div>
@@ -1415,7 +1744,15 @@
               <button type="button" class="btn btn-lg btn-dark" value="26Oct" onclick="txtON(this)">View Details</button>
             </div>
             <div id="26Oct" class="overlay" onclick="txtOFF(this)">
-              <div class="text">Overlay Text 1</div>
+              <div class="text">
+           <ol>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+           </ol>
+          </div>
             </div>
         </div>
         </div>
@@ -1449,7 +1786,15 @@
               <button type="button" class="btn btn-lg btn-dark" value="27Oct" onclick="txtON(this)">View Details</button>
             </div>
             <div id="27Oct" class="overlay" onclick="txtOFF(this)">
-              <div class="text">Overlay Text 1</div>
+              <div class="text">
+           <ol>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+           </ol>
+          </div>
             </div>
         </div>
         </div>
@@ -1487,7 +1832,15 @@
               <button type="button" class="btn btn-lg btn-dark" value="2Nov" onclick="txtON(this)">View Details</button>
             </div>
             <div id="2Nov" class="overlay" onclick="txtOFF(this)">
-              <div class="text">Overlay Text 1</div>
+              <div class="text">
+           <ol>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+           </ol>
+          </div>
             </div>
         </div>
         </div>
@@ -1513,7 +1866,15 @@
               <button type="button" class="btn btn-lg btn-dark" value="4Nov" onclick="txtON(this)">View Details</button>
             </div>
             <div id="4Nov" class="overlay" onclick="txtOFF(this)">
-              <div class="text">Overlay Text 1</div>
+              <div class="text">
+           <ol>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+           </ol>
+          </div>
             </div>
         </div>
         </div>
@@ -1552,7 +1913,15 @@
               <button type="button" class="btn btn-lg btn-dark" value="6Nov" onclick="txtON(this)">View Details</button>
             </div>
             <div id="6Nov" class="overlay" onclick="txtOFF(this)">
-              <div class="text">Overlay Text 1</div>
+              <div class="text">
+           <ol>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+           </ol>
+          </div>
             </div>
         </div>
         </div>
@@ -1603,7 +1972,15 @@
               <button type="button" class="btn btn-lg btn-dark" value="11Nov" onclick="txtON(this)">View Details</button>
             </div>
             <div id="11Nov" class="overlay" onclick="txtOFF(this)">
-              <div class="text">Overlay Text 1</div>
+              <div class="text">
+           <ol>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+           </ol>
+          </div>
             </div>
         </div>
         </div>
@@ -1629,7 +2006,15 @@
               <button type="button" class="btn btn-lg btn-dark" value="13Nov" onclick="txtON(this)">View Details</button>
             </div>
             <div id="13Nov" class="overlay" onclick="txtOFF(this)">
-              <div class="text">Overlay Text 1</div>
+              <div class="text">
+           <ol>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+           </ol>
+          </div>
             </div>
         </div>
         </div>
@@ -1655,7 +2040,15 @@
               <button type="button" class="btn btn-lg btn-dark" value="16Nov" onclick="txtON(this)">View Details</button>
             </div>
             <div id="16Nov" class="overlay" onclick="txtOFF(this)">
-              <div class="text">Overlay Text 1</div>
+              <div class="text">
+           <ol>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+           </ol>
+          </div>
             </div>
         </div>
         </div>
@@ -1681,7 +2074,15 @@
               <button type="button" class="btn btn-lg btn-dark" value="20Nov" onclick="txtON(this)">View Details</button>
             </div>
             <div id="20Nov" class="overlay" onclick="txtOFF(this)">
-              <div class="text">Overlay Text 1</div>
+              <div class="text">
+           <ol>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+           </ol>
+          </div>
             </div>
         </div>
         </div>
@@ -1707,7 +2108,15 @@
               <button type="button" class="btn btn-lg btn-dark" value="2Dec" onclick="txtON(this)">View Details</button>
             </div>
             <div id="2Dec" class="overlay" onclick="txtOFF(this)">
-              <div class="text">Overlay Text 1</div>
+              <div class="text">
+           <ol>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+           </ol>
+          </div>
             </div>
         </div>
         </div>
@@ -1733,7 +2142,15 @@
               <button type="button" class="btn btn-lg btn-dark" value="4Dec" onclick="txtON(this)">View Details</button>
             </div>
             <div id="4Dec" class="overlay" onclick="txtOFF(this)">
-              <div class="text">Overlay Text 1</div>
+              <div class="text">
+           <ol>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+           </ol>
+          </div>
             </div>
         </div>
         </div>
@@ -1760,7 +2177,15 @@
               <button type="button" class="btn btn-lg btn-dark" value="7Dec" onclick="txtON(this)">View Details</button>
             </div>
             <div id="7Dec" class="overlay" onclick="txtOFF(this)">
-              <div class="text">Overlay Text 1</div>
+              <div class="text">
+           <ol>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+           </ol>
+          </div>
             </div>
         </div>
         </div>
@@ -1787,7 +2212,15 @@
               <button type="button" class="btn btn-lg btn-dark" value="9Dec" onclick="txtON(this)">View Details</button>
             </div>
             <div id="9Dec" class="overlay" onclick="txtOFF(this)">
-              <div class="text">Overlay Text 1</div>
+              <div class="text">
+           <ol>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+           </ol>
+          </div>
             </div>
         </div>
         </div>
@@ -1814,7 +2247,15 @@
               <button type="button" class="btn btn-lg btn-dark" value="11Dec" onclick="txtON(this)">View Details</button>
             </div>
             <div id="11Dec" class="overlay" onclick="txtOFF(this)">
-              <div class="text">Overlay Text 1</div>
+              <div class="text">
+           <ol>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+           </ol>
+          </div>
             </div>
         </div>
         </div>
@@ -1856,7 +2297,15 @@
               <button type="button" class="btn btn-lg btn-dark" value="14Dec" onclick="txtON(this)">View Details</button>
             </div>
             <div id="14Dec" class="overlay" onclick="txtOFF(this)">
-              <div class="text">Overlay Text 1</div>
+              <div class="text">
+           <ol>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+           </ol>
+          </div>
             </div>
         </div>
         </div>
