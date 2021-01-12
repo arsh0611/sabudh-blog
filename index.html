@@ -53,7 +53,7 @@
         <!-- <li class="nav-item">
           <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
         </li> -->
-      </ol>
+      </ul>
     </div>
   </div>
 </nav>
@@ -79,11 +79,11 @@
         </div>
         <div class="card-body">
           <h2>8-July-2020</h2>
-          <ol>
+          <ul>
             <li>What a Population</li>
             <li>Hypothesis space, parameters, generative models and discriminative models</li>
             <li>Search in parameter space</li>
-          </ol>
+          </ul>
 
           <!-- <p>what a Population </p>
           <p>hypothesis space, parameters, generative models and discriminative models</p>
@@ -93,13 +93,13 @@
           </div>
           <div id="8Jul" class="overlay" onclick="txtOFF(this)">
             <div class="text">
-           <ol>
+           <ul>
             <li></li>
             <li></li>
             <li></li>
             <li></li>
             <li></li>
-           </ol>
+           </ul>
           </div>
           </div>
           -->
@@ -109,7 +109,7 @@
           </div>
           <div id="8Jul" class="overlay" onclick="txtOFF(this)">
             <div class="text">
-              <ol>
+              <ul>
                 <li>Defining Population, Sample, Estimate, Mean(Expected Value), Dispersion(Variance and SD)</li>
                 <li>Variance: Average distance of a single measurement from its Expected Value</li>
                 <li>How data dispersion happens, Random Variables(Uncertainity)</li>
@@ -120,9 +120,9 @@
                 <li>Population is governed by Probability Distribution</li>
                 <li>Generative Model(Joint Probability Distribution of all the objects of Sample) and Discriminative Model(Conditional Probabily Function)(Bank Example/who's going to default)</li>
                 <li>P(X,Y)/P(X) = P(Y|X), Probabilty theory, P(X,Y): Joint Probabilty, P(Y|X): Conditional Probability</li>
-                <li>Componets of ML:<ol><li>Sample Data</li><li>A function g from family of functions (Hypothesis space)</li><li>Cost function that tells how close g(x) is to f(x)(real world process)</li>
-                  <li>Search Algorithm that searches for g(x) from Hypothesis Space which minimizes the cost function</li></ol></li>
-              </ol>
+                <li>Componets of ML:<ul><li>Sample Data</li><li>A function g from family of functions (Hypothesis space)</li><li>Cost function that tells how close g(x) is to f(x)(real world process)</li>
+                  <li>Search Algorithm that searches for g(x) from Hypothesis Space which minimizes the cost function</li></ul></li>
+              </ul>
             </div>
           </div>
       </div>
@@ -135,13 +135,13 @@
         </div>
         <div class="card-body">
           <h2>9-July-2020</h2>
-          <ol>
+          <ul>
             <li>Gaussian Mixture Models</li>
             <li> Maximum Likelihood</li>
             <br>
             <br>
 
-          </ol>
+          </ul>
           <!-- <p>point 1</p>
           <p>point 2</p>
           <p>pint 3</p> -->
@@ -150,21 +150,21 @@
           </div>
           <div id="9Jul" class="overlay" onclick="txtOFF(this)">
             <div class="text">
-              <ol>
+              <ul>
                 <li>Process of MLearning: Raw Data -> Feature Extraction -> Model</li>
                 <li>Rules of getting a model: Accurate and Generalises</li>
                 <li>Probability for single Gaussian/Normal distribution(for any point x/a random variable in a sample) = 1/sqrt(2*pi*SD)*e(-(x-mean)^2/2SD^2)</li>
                 <li>A Gaussian mixture model is a probabilistic model that assumes all the data points are generated from a mixture of a finite number of Gaussian distributions with unknown parameters</li>
                 <li>Each Gaussian k in the mixture is comprised of the following parameters:
-                  <ol>
+                  <ul>
                     <li>A mean μ that defines its centre.
                     <li>A covariance Σ that defines its width. This would be equivalent to the dimensions of an ellipsoid in a multivariate scenario.
                     <li>A mixing probability π that defines how big or small the Gaussian function will be.
-                  </ol>
+                  </ul>
                 </li>
                 <li>(Mixture Model)If C1 is the mean of one gaussian and C2 of the other then, Probability for two Gaussian/Normal distribution(for any point x/a random variabel in a sample) = P(C1)*P(X|C1) + P(C2)*P(X|C2)</li>
                 <li>Maximum Likelihood Estimation involves treating the problem as an optimization or search problem, where we seek a set of parameters that results in the best fit for the joint probability of the data sample (X).</li>
-              </ol>
+              </ul>
             </div>
           </div>
       </div>
@@ -179,28 +179,28 @@
         <div class="card-body">
           <h2>13-July-2020</h2>
           <p></p>
-          <ol>
+          <ul>
             <li>Variance Reduction</li>
             <li>Probabilistic Models</li>
             <li>Linear Regression</li>
             <br>
-          </ol>
+          </ul>
           <!-- <p>Point 1</p>
           <p>Point 2</p>
-          <p>Point 3</p> <ol><li></li></ol>-->
+          <p>Point 3</p> <ul><li></li></ul>-->
           <div class="d-grid gap-2">
             <button type="button" class="btn btn-lg btn-dark" value="13Jul" onclick="txtON(this)">View Details</button>
           </div>
           <div id="13Jul" class="overlay" onclick="txtOFF(this)">
             <div class="text">
-              <ol>
+              <ul>
                 <li>Variance reduction is a procedure used to increase the precision of the estimates that can be obtained for a given simulation or computational effort.[1] Every output random variable from the simulation is associated with a variance which limits the precision of the simulation results. In order to make a simulation statistically efficient, i.e., to obtain a greater precision and smaller confidence intervals for the output random variable of interest, variance reduction techniques can be used.</li>
                 <li>The main ones are common random numbers, antithetic variates, control variates, importance sampling, stratified sampling, moment matching, conditional Monte Carlo and quasi random variables.</li>
                 <li>Probabailistic models incorporate random variables and probability distributions into the model of an event or phenomenon. While a deterministic model gives a single possible outcome for an event, a probabilistic model gives a probability distribution as a solution.</li>
                 <li>Random variables from the normal distribution, binomial distribution and Bernoulli distribution form the foundation for this type of modeling.</li>
                 <li>Linear regression models an output variable as a linear combination of input features. A linear model attempts to find the simplest relationship between a feature variable and the output as possible.</li>
                 <li>Linear regression tries find a similar relationship between an input feature and dependent variable, and ends up creating a similar formula: Y=β0+β1X</li>
-              </ol>
+              </ul>
             </div>
           </div>
         </div>
@@ -215,40 +215,40 @@
         <div class="card-body">
           <h2>15-July-2020</h2>
           <p></p>
-          <ol>
+          <ul>
             <li> Logistic Regression</li>
             <li>Reducing the Number of Parameters</li>
             <li>Functional form assumptions</li>
             <li>Independence assumptions.</li>
             <br>
-          </ol>
+          </ul>
           <!-- <p>Point 1</p>
           <p>Point 2</p>
-          <p>Point 3</p> <ol><li></li></ol>-->
+          <p>Point 3</p> <ul><li></li></ul>-->
           <div class="d-grid gap-2">
             <button type="button" class="btn btn-lg btn-dark" value="15Jul" onclick="txtON(this)">View Details</button>
           </div>
           <div id="15Jul" class="overlay" onclick="txtOFF(this)">
             <div class="text">
-              <ol>
+              <ul>
                 <li>Logistic Regression is a classification algorithm, that is used where the response variable is categorical. The idea of Logistic Regression is to find a relationship between features and probability of particular outcome.</li>
                 <li>Logistic regression can be expressed as: log (  p(X)  / k 1 - p(X) ) =  β0+β1X </li>
                 <li>
-                  <ol>
+                  <ul>
                     <li>Confirmatory analysis (→ reduce your predictor complexity to a reasonable level without looking at the responses, by PCA or subject-area considerations or ...)</li>
                     <li>Predictive analysis (→ use appropriate penalization methods). Lasso could very well work OK with 100 predictors, if you have a reasonably large sample. Feature selection will be unstable, but that's OK if all you care about is prediction.</li>
                     <li>Exploratory analysis: Be transparent, don't quote any p-values.</li>
                 <li>Ordinary Least Squares Assumption: The regression model is linear in the coefficients and the error term. This assumption addresses the functional form of the model. In statistics, a regression model is linear when all terms in the model are either the constant or a parameter multiplied by an independent variable. The defining characteristic of linear regression is this functional form of the parameters rather than the ability to model curvature. Linear models can model curvature by including nonlinear variables such as polynomials and transforming exponential functions.</li>
                 <li>
-                  <ol>
+                  <ul>
                     Multiple linear regression analysis makes several key assumptions:
                     <li>There must be a linear relationship between the outcome variable and the independent variables.  Scatterplots can show whether there is a linear or curvilinear relationship.
                     <li>Multivariate Normality: Multiple regression assumes that the residuals are normally distributed.
                     <li>No Multicollinearity: Multiple regression assumes that the independent variables are not highly correlated with each other.  This assumption is tested using Variance Inflation Factor (VIF) values.
                     <li>Homoscedasticity:This assumption states that the variance of error terms are similar across the values of the independent variables.  A plot of standardized residuals versus predicted values can show whether points are equally distributed across all values of the independent variables.
-                  </ol>
+                  </ul>
                 </li>
-              </ol>
+              </ul>
             </div>
           </div>
         </div>
@@ -265,22 +265,22 @@
         <div class="card-body">
           <h2>17-July-2020</h2>
           <p></p>
-          <ol>
+          <ul>
             <li>CRISP-DM Model</li>
             <!-- <li>Probabilistic Models</li>
             <li>Linear Regression</li> -->
             <br><br><br>
             <br>
-          </ol>
+          </ul>
           <!-- <p>Point 1</p>
           <p>Point 2</p>
-          <p>Point 3</p> <ol><li></li></ol>-->
+          <p>Point 3</p> <ul><li></li></ul>-->
           <div class="d-grid gap-2">
             <button type="button" class="btn btn-lg btn-dark" value="17Jul" onclick="txtON(this)">View Details</button>
           </div>
           <div id="17Jul" class="overlay" onclick="txtOFF(this)">
             <div class="text">
-              <ol>
+              <ul>
                 <li>CRISP-DM: Cross Industry Standard Process for Data Mining</li>
                 <li>Four levels of Abstraction: Data Preparation, Data Cleaning(Generic Task), Missing Value Handling(Specialized Task), The mean value for numeric attributes and median for categorical attributes is used(Process Instance)</li>
                 <li>In Data Mining Context: Application Domain(Medical Prognosis), Data Mining Problem(Regression), Technical Aspect(Censored Observations/Actual event of interest is not observed), Tools and Techniques(Cox's Regression, CIL's GENNA)</li>
@@ -296,7 +296,7 @@
                 <li>Evaluation: offline(Estimate, expected, accuracy), online(a/b testing(cohort testing)) then MLOPS(in development phase, just like Devops)</li>
                 <li>Deployment: Knowledge deployment is specific to objectives(presentation, pre processing of live data feeds, generating a report, monitoring effectiveness), process deployment, produce final report</li>
                 <li>MLOPS includes Data pipelines and Update Model Efficiency</li>
-              </ol>
+              </ul>
             </div>
           </div>
         </div>
@@ -314,33 +314,33 @@
         <div class="card-body">
           <h2>21-July-2020</h2>
           <!-- <p></p> -->
-          <ol>
+          <ul>
             <li>Logistic Regression</li>
             <li>Cross Entropy</li>
             <li>Probability</li>
             <br>
             <br>
-          </ol>
+          </ul>
           <!-- <p>Point 1</p>
           <p>Point 2</p>
-          <p>Point 3</p> <ol><li></li></ol>-->
+          <p>Point 3</p> <ul><li></li></ul>-->
           <div class="d-grid gap-2">
             <button type="button" class="btn btn-lg btn-dark" value="21Jul" onclick="txtON(this)">View Details</button>
           </div>
           <div id="21Jul" class="overlay" onclick="txtOFF(this)">
             <div class="text">
-              <ol>
+              <ul>
                 <li>Logistic Regression is a classification algorithm, that is used where the response variable is categorical. The idea of Logistic Regression is to find a relationship between features and probability of particular outcome.</li>
                 <li>Logistic regression can be expressed as: log (  p(X)  / k 1 - p(X) ) =  β0+β1X </li>
                 <li>Cross-entropy loss, or log loss, measures the performance of a classification model whose output is a probability value between 0 and 1. Cross-entropy loss increases as the predicted probability diverges from the actual label.</li>
                 <li>In binary classification, where the number of classes M equals 2, cross-entropy can be calculated as: −(ylog(p)+(1−y)log(1−p)). If M>2 (i.e. multiclass classification), we calculate a separate loss for each class label per observation and sum the result. −∑c=1Myo,clog(po,c)</li>
                 <li>Many problems require a probability estimate as output. Logistic regression is an extremely efficient mechanism for calculating probabilities. Practically speaking, you can use the returned probability in either of the following two ways:
-                  <ol>
+                  <ul>
                     <li>"As is"</li>
                     <li>Converted to a binary category</li>
-                  </ol>
+                  </ul>
                 </li>
-              </ol>
+              </ul>
             </div>
           </div>
         </div>
@@ -357,30 +357,30 @@
         <div class="card-body">
           <h2>22-July-2020</h2>
           <!-- <p></p> -->
-          <ol>
+          <ul>
             <li>Linear Regression</li>
             <li>Gradient Descent</li>
             <!-- <li>Probability</li> -->
             <br>
             <br>
             <br>
-          </ol>
+          </ul>
           <!-- <p>Point 1</p>
           <p>Point 2</p>
-          <p>Point 3</p> <ol><li></li></ol>-->
+          <p>Point 3</p> <ul><li></li></ul>-->
           <div class="d-grid gap-2">
             <button type="button" class="btn btn-lg btn-dark" value="22Jul" onclick="txtON(this)">View Details</button>
           </div>
           <div id="22Jul" class="overlay" onclick="txtOFF(this)">
             <div class="text">
-              <ol>
+              <ul>
                 <li>Linear regression models an output variable as a linear combination of input features. A linear model attempts to find the simplest relationship between a feature variable and the output as possible.</li>
                 <li>Linear regression tries find a similar relationship between an input feature and dependent variable, and ends up creating a similar formula: Y=β0+β1X</li>
                 <li>Gradient descent is an optimization algorithm used to minimize some function by iteratively moving in the direction of steepest descent as defined by the negative of the gradient</li>
                 <li>Given the cost function: f(m,b)=1N∑i=1n(yi−(mxi+b))2. The gradient can be calculated as: f′(m,b)=⎡⎣dfdmdfdb⎤⎦=[1N∑−2xi(yi−(mxi+b))1N∑−2(yi−(mxi+b))] To solve for the gradient, we iterate through our data points using our new m and b values and compute the partial derivatives. This new gradient tells us the slope of our cost function at our current position (current parameter values) and the direction we should move to update our parameters. The size of our update is controlled by the learning rate.</li>
                 <li>A low learning rate is more precise, but calculating the gradient is time-consuming, so it will take us a very long time to get to the bottom.</li>
                 <li>A Loss Functions tells us “how good” our model is at making predictions for a given set of parameters. The cost function has its own curve and its own gradients. The slope of this curve tells us how to update our parameters to make the model more accurate.</li>
-              </ol>
+              </ul>
             </div>
           </div>
         </div>
@@ -397,46 +397,46 @@
         <div class="card-body">
           <h2>23-July-2020</h2>
           <!-- <p></p> -->
-          <ol>
+          <ul>
             <li>Bayesian Belief networks</li>
             <li>Naive Bayes</li>
             <li>Independence assumptions</li>
             <br>
             <br>
-          </ol>
+          </ul>
           <!-- <p>Point 1</p>
           <p>Point 2</p>
-          <p>Point 3</p> <ol><li></li></ol>-->
+          <p>Point 3</p> <ul><li></li></ul>-->
           <div class="d-grid gap-2">
             <button type="button" class="btn btn-lg btn-dark" value="23Jul" onclick="txtON(this)">View Details</button>
           </div>
           <div id="23Jul" class="overlay" onclick="txtOFF(this)">
             <div class="text">
-              <ol>
+              <ul>
                 <li>Bayesian Belief Network or Bayesian Network or Belief Network is a Probabilistic Graphical Model (PGM) that represents conditional dependencies between random variables through a Directed Acyclic Graph (DAG).</li>
                 <li>
-                  <ol>Designing a Bayesian Network requires defining at least three things:
+                  <ul>Designing a Bayesian Network requires defining at least three things:
                   <li>Random Variables. What are the random variables in the problem?
                   <li>Conditional Relationships. What are the conditional relationships between the variables?
                   <li>Probability Distributions. What are the probability distributions for each variable?
-                  </ol>
+                  </ul>
                 </li>
                 <li>Naive Bayes is a classification technique based on Bayes’ Theorem with an assumption of independence among predictors.</li>
                 <li>The representation for naive Bayes is probabilities. A list of probabilities are stored to file for a learned naive Bayes model. This includes:
-                  <ol>
+                  <ul>
                     <li>Class Probabilities: The probabilities of each class in the training dataset.
                     <li>Conditional Probabilities: The conditional probabilities of each input value given each class value.</li>
-                  </ol>
+                  </ul>
                 <li>
-                  <ol>
+                  <ul>
                     Multiple linear regression analysis makes several key assumptions:
                     <li>There must be a linear relationship between the outcome variable and the independent variables.  Scatterplots can show whether there is a linear or curvilinear relationship.
                     <li>Multivariate Normality: Multiple regression assumes that the residuals are normally distributed.
                     <li>No Multicollinearity: Multiple regression assumes that the independent variables are not highly correlated with each other.  This assumption is tested using Variance Inflation Factor (VIF) values.
                     <li>Homoscedasticity:This assumption states that the variance of error terms are similar across the values of the independent variables.  A plot of standardized residuals versus predicted values can show whether points are equally distributed across all values of the independent variables.
-                  </ol>
+                  </ul>
                 </li>
-              </ol>
+              </ul>
             </div>
           </div>
         </div>
@@ -453,41 +453,41 @@
         <div class="card-body">
           <h2>27-July-2020</h2>
           <!-- <p></p> -->
-          <ol>
+          <ul>
             <li>Bias Variance Trade-off</li>
             <li>Lasso Regression</li>
             <li>Ridge Regression</li>
             <br>
             <br>
-          </ol>
+          </ul>
           <!-- <p>Point 1</p>
           <p>Point 2</p>
-          <p>Point 3</p> <ol><li></li></ol>-->
+          <p>Point 3</p> <ul><li></li></ul>-->
           <div class="d-grid gap-2">
             <button type="button" class="btn btn-lg btn-dark" value="27Jul" onclick="txtON(this)">View Details</button>
           </div>
           <div id="27Jul" class="overlay" onclick="txtOFF(this)">
             <div class="text">
-              <ol>
+              <ul>
                 <li>Bias is the difference between the average prediction of our model and the correct value which we are trying to predict. Model with high bias pays very little attention to the training data and oversimplifies the model. It always leads to high error on training and test data.</li>
                 <li>Variance is the variability of model prediction for a given data point or a value which tells us spread of our data. Model with high variance pays a lot of attention to training data and does not generalize on the data which it hasn’t seen before. As a result, such models perform very well on training data but has high error rates on test data.</li>
                 <li>If our model is too simple and has very few parameters then it may have high bias and low variance. On the other hand if our model has large number of parameters then it’s going to have high variance and low bias. So we need to find the right/good balance without overfitting and underfitting the data.
                 </br>This tradeoff in complexity is why there is a tradeoff between bias and variance. An algorithm can’t be more complex and less complex at the same time.</li>
                 <li>Ridge Regression:
-                  <ol>
+                  <ul>
                     <li>It shrinks the parameters, therefore it is mostly used to prevent multicollinearity.
                     <li>It reduces the model complexity by coefficient shrinkage.
                     <li>It uses L2 regularization technique.
-                  </ol>
+                  </ul>
                 </li>
                 <li>LASSO (Least Absolute Shrinkage Selector Operator)</li>
                 <li>Lasso Regression:
-                  <ol>
+                  <ul>
                     <li>It uses L1 regularization technique
                     <li>It is generally used when we have more number of features, because it automatically does feature selection.
-                  </ol>
+                  </ul>
                 </li>
-              </ol>
+              </ul>
             </div>
           </div>
         </div>
@@ -503,40 +503,40 @@
         <div class="card-body">
           <h2>28-July-2020</h2>
           <!-- <p></p> -->
-          <ol>
+          <ul>
             <li>Supervised Vs Unsupervised Learning</li>
             <li>Generative Models</li>
             <li>Discriminative Models</li>
             <br>
             <br>
-          </ol>
+          </ul>
           <!-- <p>Point 1</p>
           <p>Point 2</p>
-          <p>Point 3</p> <ol><li></li></ol>-->
+          <p>Point 3</p> <ul><li></li></ul>-->
           <div class="d-grid gap-2">
             <button type="button" class="btn btn-lg btn-dark" value="28Jul" onclick="txtON(this)">View Details</button>
           </div>
           <div id="28Jul" class="overlay" onclick="txtOFF(this)">
             <div class="text">
-              <ol>
+              <ul>
                 <li>In a supervised learning model, the algorithm learns on a labeled dataset, providing an answer key that the algorithm can use to evaluate its accuracy on training data. An unsupervised model, in contrast, provides unlabeled data that the algorithm tries to make sense of by extracting features and patterns on its own.</li>
                 <li>Semi-supervised learning takes a middle ground. It uses a small amount of labeled data bolstering a larger set of unlabeled data. And reinforcement learning trains an algorithm with a reward system, providing feedback when an artificial intelligence agent performs the best action in a particular situation.</li>
                 <li>Generative classifiers:
-                  <ol>
+                  <ul>
                     <li>Assume some functional form for P(Y), P(X|Y)
                     <li>Estimate parameters of P(X|Y), P(Y) directly from training data
                     <li>Use Bayes rule to calculate P(Y |X)
                     <li> Naïve Bayes, Bayesian networks, Markov random fields, ‌Hidden Markov Models (HMM)
-                  </ol>
+                  </ul>
                 </li>
                 <li>Discriminative classifiers:
-                  <ol>
+                  <ul>
                     <li>Assume some functional form for P(Y|X)
                     <li>Estimate parameters of P(Y|X) directly from training data
                     <li> ‌Logistic regression, ‌Traditional neural networks, Nearest neighbour, ‌Scalar Vector Machine
-                  </ol>
+                  </ul>
                 </li>
-              </ol>
+              </ul>
             </div>
           </div>
         </div>
@@ -559,27 +559,27 @@
       </div>
       <div class="card-body">
         <h2>29-July-2020</h2>
-        <ol>
+        <ul>
           <li>Confidence Intervals</li>
           <!-- <li>Hypothesis space, parameters, generative models and discriminative models</li>
           <li>Search in parameter space</li> -->
           <br><br><br>
-        </ol>
+        </ul>
 
         <!-- <p>what a Population </p>
         <p>hypothesis space, parameters, generative models and discriminative models</p>
-        <p>search in parameter space</p> <ol><li></li></ol>-->
+        <p>search in parameter space</p> <ul><li></li></ul>-->
         <div class="d-grid gap-2">
           <button type="button" class="btn btn-lg btn-dark" value="29Jul" onclick="txtON(this)">View Details</button>
         </div>
         <div id="29Jul" class="overlay" onclick="txtOFF(this)">
           <div class="text">
-            <ol>
+            <ul>
               <li>A confidence interval is a bounds on the estimate of a population variable. It is an interval statistic used to quantify the uncertainty on an estimate.</li>
               <li>The value of a confidence interval is its ability to quantify the uncertainty of the estimate. It provides both a lower and upper bound and a likelihood. Taken as a radius measure alone, the confidence interval is often referred to as the margin of error and may be used to graphically depict the uncertainty of an estimate on graphs through the use of error bars</li>
               <li>Classification accuracy or classification error is a proportion or a ratio. It describes the proportion of correct or incorrect predictions made by the model. Each prediction is a binary decision that could be correct or incorrect. </li>
               <li>The assumptions that underlie parametric confidence intervals are often violated. The predicted variable sometimes isn’t normally distributed, and even when it is, the variance of the normal distribution might not be equal at all levels of the predictor variable.</li>
-            </ol>
+            </ul>
           </div>
         </div>
     </div>
@@ -594,39 +594,39 @@
       </div>
       <div class="card-body">
         <h2>30-July-2020</h2>
-        <ol>
+        <ul>
           <li>Model Selection</li>
           <li>Cross Validation</li>
           <li>Bootstrapping</li>
           <li>Chi Square Test</li>
-        </ol>
+        </ul>
 
         <!-- <p>what a Population </p>
         <p>hypothesis space, parameters, generative models and discriminative models</p>
-        <p>search in parameter space</p> <ol><li></li></ol>-->
+        <p>search in parameter space</p> <ul><li></li></ul>-->
         <div class="d-grid gap-2">
           <button type="button" class="btn btn-lg btn-dark" value="30Jul" onclick="txtON(this)">View Details</button>
         </div>
         <div id="30Jul" class="overlay" onclick="txtOFF(this)">
           <div class="text">
-            <ol>
+            <ul>
               <li>
-                <ol>
+                <ul>
                   <li>Model selection is the process of choosing one among many candidate models for a predictive modeling problem.
                   <li>There may be many competing concerns when performing model selection beyond model performance, such as complexity, maintainability, and available resources.
                   <li>The two main classes of model selection techniques are probabilistic measures and resampling methods.
-                <ol>
+                <ul>
               </li>
               <li>Cross-validation is a technique in which we train our model using the subset of the data-set and then evaluate using the complementary subset of the data-set.
-                <ol>
+                <ul>
                   <li>Reserve some portion of sample data-set.
                   <li>Using the rest data-set train the model.
                   <li>Test the model using the reserve portion of the data-set.
-                </ol>
+                </ul>
               </li>
               <li>The bootstrap method is a resampling technique used to estimate statistics on a population by sampling a dataset with replacement.</br>It can be used to estimate summary statistics such as the mean or standard deviation. It is used in applied machine learning to estimate the skill of machine learning models when making predictions on data not included in the training data.</li>
               <li>Chi-square test in hypothesis testing is used to test the hypothesis about the distribution of observations/frequencies in different categories.</li>
-            </ol>
+            </ul>
           </div>
         </div>
     </div>
@@ -640,22 +640,22 @@
       </div>
       <div class="card-body">
         <h2>3-August-2020</h2>
-        <ol>
+        <ul>
           <li>Confusion Matrix</li>
           <li>Precision and Recall</li>
           <li>Kappa Statistic</li>
           <li>ROC Curve</li>
-        </ol>
+        </ul>
 
         <!-- <p>what a Population </p>
         <p>hypothesis space, parameters, generative models and discriminative models</p>
-        <p>search in parameter space</p> <ol><li></li></ol>-->
+        <p>search in parameter space</p> <ul><li></li></ul>-->
         <div class="d-grid gap-2">
           <button type="button" class="btn btn-lg btn-dark" value="3Aug" onclick="txtON(this)">View Details</button>
         </div>
         <div id="3Aug" class="overlay" onclick="txtOFF(this)">
           <div class="text">
-            <ol>
+            <ul>
               <li>A Confusion matrix is an N x N matrix used for evaluating the performance of a classification model, where N is the number of target classes. The matrix compares the actual target values with those predicted by the machine learning model. This gives us a holistic view of how well our classification model is performing and what kinds of errors it is making.</li>
               <li>Precision tells us how many of the correctly predicted cases actually turned out to be positive.</li>
               <li>Precision = TruePositives / (TruePositives + FalsePositives)</li>
@@ -664,7 +664,7 @@
               <li>The kappa statistic is frequently used to test interrater reliability. The importance of rater reliability lies in the fact that it represents the extent to which the data collected in the study are correct representations of the variables measured.</li>
               <li>The Receiver Operator Characteristic (ROC) curve is an evaluation metric for binary classification problems. It is a probability curve that plots the TPR against FPR at various threshold values and essentially separates the ‘signal’ from the ‘noise’. </li>
               <li>The Area Under the Curve (AUC) is the measure of the ability of a classifier to distinguish between classes and is used as a summary of the ROC curve.</br>The higher the AUC, the better the performance of the model at distinguishing between the positive and negative classes.</li>
-            </ol>
+            </ul>
           </div>
         </div>
     </div>
@@ -688,43 +688,43 @@
       </div>
       <div class="card-body">
         <h2>4-August-2020</h2>
-        <ol>
+        <ul>
           <li>Introduction to Clustering</li>
           <li>Expectation Maximization</li>
           <!-- <li>Kappa Statistic</li>
           <li>ROC Curve</li> -->
           <br><br>
-        </ol>
+        </ul>
 
         <!-- <p>what a Population </p>
         <p>hypothesis space, parameters, generative models and discriminative models</p>
-        <p>search in parameter space</p> <ol><li></li></ol>-->
+        <p>search in parameter space</p> <ul><li></li></ul>-->
         <div class="d-grid gap-2">
           <button type="button" class="btn btn-lg btn-dark" value="4Aug" onclick="txtON(this)">View Details</button>
         </div>
         <div id="4Aug" class="overlay" onclick="txtOFF(this)">
           <div class="text">
-           <ol>
+           <ul>
             <li>Clustering is the task of dividing the population or data points into a number of groups such that data points in the same groups are more similar to other data points in the same group and dissimilar to the data points in other groups. It is basically a collection of objects on the basis of similarity and dissimilarity between them.</li>
             <li>Clustering is very much important as it determines the intrinsic grouping among the unlabeled data present. There are no criteria for a good clustering. It depends on the user, what is the criteria they may use which satisfy their need.</li>
             <li>Clustering Methods :
-              <ol>
+              <ul>
                  <li>Density-Based Methods</li>
                  <li>Hierarchical Based Methods</li>
                  <li>Partitioning Methods</li>
                  <li>Grid-based Methods</li>
-               </ol>
+               </ul>
             </li>
             <li>Expectation-Maximization algorithm can be used for the latent variables (variables that are not directly observable and are actually inferred from the values of the other observed variables) too in order to predict their values with the condition that the general form of probability distribution governing those latent variables is known to us.</li>
             <li>Usage of EM algorithm:
-              <ol>
+              <ul>
                  <li>It can be used to fill the missing data in a sample.</li>
                  <li>It can be used as the basis of unsupervised learning of clusters.</li>
                  <li>It can be used for the purpose of estimating the parameters of Hidden Markov Model (HMM).</li>
                  <li>It can be used for discovering the values of latent variables.</li>
-               </ol>
+               </ul>
             </li>
-           </ol>
+           </ul>
           </div>
         </div>
     </div>
@@ -738,55 +738,55 @@
         </div>
         <div class="card-body">
           <h2>6-August-2020</h2>
-          <ol>
+          <ul>
             <li>Expectation Maximization</li>
             <li>K-means</li>
             <!-- <li>Kappa Statistic</li>
             <li>ROC Curve</li> -->
             <br><br>
-          </ol>
+          </ul>
 
           <!-- <p>what a Population </p>
           <p>hypothesis space, parameters, generative models and discriminative models</p>
-          <p>search in parameter space</p> <ol><li></li></ol>-->
+          <p>search in parameter space</p> <ul><li></li></ul>-->
           <div class="d-grid gap-2">
             <button type="button" class="btn btn-lg btn-dark" value="6Aug" onclick="txtON(this)">View Details</button>
           </div>
           <div id="6Aug" class="overlay" onclick="txtOFF(this)">
             <div class="text">
-           <ol>
+           <ul>
              <li>Expectation-Maximization algorithm can be used for the latent variables (variables that are not directly observable and are actually inferred from the values of the other observed variables) too in order to predict their values with the condition that the general form of probability distribution governing those latent variables is known to us.</li>
              <li>Usage of EM algorithm:
-               <ol>
+               <ul>
                   <li>It can be used to fill the missing data in a sample.</li>
                   <li>It can be used as the basis of unsupervised learning of clusters.</li>
                   <li>It can be used for the purpose of estimating the parameters of Hidden Markov Model (HMM).</li>
                   <li>It can be used for discovering the values of latent variables.</li>
-                </ol>
+                </ul>
              </li>
              <li>Advantages of EM algorithm
-               <ol>
+               <ul>
                   <li>It is always guaranteed that likelihood will increase with each iteration.</li>
                   <li>The E-step and M-step are often pretty easy for many problems in terms of implementation.</li>
                   <li>Solutions to the M-steps often exist in the closed form.</li>
-                </ol>
+                </ul>
              </li>
              <li>Disadvantages of EM algorithm
-               <ol>
+               <ul>
                   <li>It has slow convergence.</li>
                   <li>It makes convergence to the local optima only.</li>
                   <li>It requires both the probabilities, forward and backward (numerical optimization requires only forward probability).</li>
-                </ol>
+                </ul>
              </li>
             <li>K means: The algorithm will categorize the items into k groups of similarity. To calculate that similarity, we will use the euclidean distance as measurement.</li>
             <li>The algorithm works as follows
-              <ol>
+              <ul>
                  <li>Initialize k points, called means, randomly</li>
                  <li>Categorize each item to its closest mean and we update the mean’s coordinates, which are the averages of the items categorized in that mean so far.</li>
                  <li>Repeat the process for a given number of iterations and at the end, we have our clusters.</li>
-               </ol>
+               </ul>
             </li>
-           </ol>
+           </ul>
           </div>
           </div>
       </div>
@@ -800,41 +800,41 @@
         </div>
         <div class="card-body">
           <h2>10-August-2020</h2>
-          <ol>
+          <ul>
             <li>K-means</li>
             <li>Hierarchical clustering</li>
 
             <!-- <li>Kappa Statistic</li>
             <li>ROC Curve</li> -->
             <br>
-          </ol>
+          </ul>
 
           <!-- <p>what a Population </p>
           <p>hypothesis space, parameters, generative models and discriminative models</p>
-          <p>search in parameter space</p> <ol><li></li></ol>-->
+          <p>search in parameter space</p> <ul><li></li></ul>-->
           <div class="d-grid gap-2">
             <button type="button" class="btn btn-lg btn-dark" value="10Aug" onclick="txtON(this)">View Details</button>
           </div>
           <div id="10Aug" class="overlay" onclick="txtOFF(this)">
             <div class="text">
-           <ol>
+           <ul>
              <li>K means: The algorithm will categorize the items into k groups of similarity. To calculate that similarity, we will use the euclidean distance as measurement.</li>
              <li>The algorithm works as follows
-               <ol>
+               <ul>
                   <li>Initialize k points, called means, randomly</li>
                   <li>Categorize each item to its closest mean and we update the mean’s coordinates, which are the averages of the items categorized in that mean so far.</li>
                   <li>Repeat the process for a given number of iterations and at the end, we have our clusters.</li>
-                </ol>
+                </ul>
              </li>
              <li>A Hierarchical clustering method works via grouping data into a tree of clusters. Hierarchical clustering begins by treating every data points as a separate cluster. Then, it repeatedly executes the subsequent steps:
-               <ol>
+               <ul>
                   <li>Identify the 2 clusters which can be closest together</li>
                   <li>Merge the 2 maximum comparable clusters. We need to continue these steps until all the clusters are merged together.</li>
-                </ol>
+                </ul>
              </li>
             <li></li>
             <li></li>
-           </ol>
+           </ul>
           </div>
           </div>
       </div>
@@ -848,7 +848,7 @@
           </div>
           <div class="card-body">
             <h2>17-August-2020</h2>
-            <ol>
+            <ul>
               <li>Birch</li>
               <li>DBscan</li>
               <!-- <li>CURE</li> -->
@@ -857,35 +857,35 @@
               <!-- <li>Kappa Statistic</li>
               <li>ROC Curve</li> -->
               <br>
-            </ol>
+            </ul>
 
             <!-- <p>what a Population </p>
             <p>hypothesis space, parameters, generative models and discriminative models</p>
-            <p>search in parameter space</p> <ol><li></li></ol>-->
+            <p>search in parameter space</p> <ul><li></li></ul>-->
             <div class="d-grid gap-2">
               <button type="button" class="btn btn-lg btn-dark" value="17Aug" onclick="txtON(this)">View Details</button>
             </div>
             <div id="17Aug" class="overlay" onclick="txtOFF(this)">
               <div class="text">
-           <ol>
+           <ul>
             <li>Balanced Iterative Reducing and Clustering using Hierarchies (BIRCH) is a clustering algorithm that can cluster large datasets by first generating a small and compact summary of the the large dataset that retains as much information as possible. This smaller summary is then clustered instead of clustering the larger dataset.</li>
             <li>BIRCH is often used to complement other clustering algorithms by creating a summary of the dataset that the other clustering algorithm can now use.</li>
             <li>Parameters of BIRCH Algorithm :
-              <ol>
+              <ul>
                  <li>hreshold :  threshold is the maximum number of data points a sub-cluster in the leaf node of the CF tree can hold.</li>
                  <li>branching_factor : This parameter specifies the maximum number of CF sub-clusters in each node (internal node).</li>
                  <li>n_clusters : The number of clusters to be returned after the entire BIRCH algorithm is complete i.e., number of clusters after the final clustering step. If set to None, the final clustering step is not performed and intermediate clusters are returned.</li>
-               </ol>
+               </ul>
             </li>
             <li>Density-based spatial clustering of applications with noise (DBSCAN)</li>
             <li>The key idea is that for each point of a cluster, the neighborhood of a given radius has to contain at least a minimum number of points.</li>
             <li>DBSCAN algorithm requires two parameters:
-              <ol>
+              <ul>
                  <li>eps : It defines the neighborhood around a data point i.e. if the distance between two points is lower or equal to ‘eps’ then they are considered as neighbors.</li>
                  <li>MinPts: Minimum number of neighbors (data points) within eps radius. Larger the dataset, the larger value of MinPts must be chosen.</li>
-               </ol>
+               </ul>
             </li>
-           </ol>
+           </ul>
           </div>
             </div>
         </div>
@@ -900,7 +900,7 @@
             </div>
             <div class="card-body">
               <h2>19-August-2020</h2>
-              <ol>
+              <ul>
                 <li>Gap Statistic</li>
                 <!-- <li>Hierarchical clustering</li>
                 <li>CURE</li> -->
@@ -908,27 +908,27 @@
                 <!-- <li>Kappa Statistic</li>
                 <li>ROC Curve</li> -->
                 <br>
-              </ol>
+              </ul>
 
               <!-- <p>what a Population </p>
               <p>hypothesis space, parameters, generative models and discriminative models</p>
-              <p>search in parameter space</p> <ol><li></li></ol>-->
+              <p>search in parameter space</p> <ul><li></li></ul>-->
               <div class="d-grid gap-2">
                 <button type="button" class="btn btn-lg btn-dark" value="19Aug" onclick="txtON(this)">View Details</button>
               </div>
               <div id="19Aug" class="overlay" onclick="txtOFF(this)">
                 <div class="text">
-                 <ol>
+                 <ul>
                   <li>The Gap statistic is a standard method for determining the number of clusters in a set of data</li>
                   <li>The Gap statistic standardizes the graph of log(Wk), where Wk is the within-cluster dispersion, by comparing it to its expectation under an appropriate null reference distribution of the data</li>
                   <li>Conditions under which the Gap-Statistics likely to fail
-                    <ol>
+                    <ul>
                        <li>Underestimation of clusters: If two or three clusters are very close together and the other clusters are far apart, it tends to underestimate.</li>
                        <li>Overestimation of clusters: If all clusters are close to together, it rather overestimates than underestimates.</li>
                        <li>In general: Both underestimation and overestimation depend mostly on the randomly initialized centroids. When some of them get omitted due to random unluck, the break in the within-cluster distance forces the gap statistic to produce the optimum cluster earlier.</li>
-                     </ol>
+                     </ul>
                   </li>
-                 </ol>
+                 </ul>
                 </div>
                </div>
              </div>
@@ -952,35 +952,35 @@
         </div>
         <div class="card-body">
           <h2>19-August-2020</h2>
-          <ol>
+          <ul>
             <li>Text Vectorization</li>
             <br>
             <!-- <li>Expectation Maximization</li> -->
             <!-- <li>Kappa Statistic</li>
             <li>ROC Curve</li> -->
             <br><br>
-          </ol>
+          </ul>
 
           <!-- <p>what a Population </p>
           <p>hypothesis space, parameters, generative models and discriminative models</p>
-          <p>search in parameter space</p> <ol><li></li></ol>-->
+          <p>search in parameter space</p> <ul><li></li></ul>-->
           <div class="d-grid gap-2">
             <button type="button" class="btn btn-lg btn-dark" value="191Aug" onclick="txtON(this)">View Details</button>
           </div>
           <div id="191Aug" class="overlay" onclick="txtOFF(this)">
             <div class="text">
-               <ol>
+               <ul>
                   <li>Text Vectorization is the process of converting text into numerical representation</li>
                   <li>Some popular methods to accomplish text vectorization:
-                    <ol>
+                    <ul>
                        <li>Binary Term Frequency: Binary Term Frequency captures presence (1) or absence (0) of term in document. For this part, under TfidfVectorizer, we set binary parameter equal to true so that it can show just presence (1) or absence (0) and norm parameter equal to false.</li>
                        <li>Bag of Words (BoW) Term Frequency: Bag of Words (BoW) Term Frequency captures frequency of term in document. Under TfidfVectorizer, we set binary parameter equal to false so that it can show the actual frequency of the term and norm parameter equal to none.</li>
                        <li>(L1) Normalized Term Frequency: (L1) Normalized Term Frequency captures normalized BoW term frequency in document. Under TfidfVectorizer, we set binary parameter equal to false so that it can show the actual frequency of the term and norm parameter equal to l1.</li>
                        <li>(L2) Normalized TF-IDF: (L2) Normalized TFIDF (Term Frequency–Inverse Document Frequency) captures normalized TFIDF in document. The below is the formula for how to compute the TFIDF.</li>
                        <li>Word2Vec: Word2Vec provides embedded representation of words. Word2Vec starts with one representation of all words in the corpus and train a NN (with 1 hidden layer) on a very large corpus of data.</li>
-                     </ol>
+                     </ul>
                   </li>
-                 </ol>
+                 </ul>
                 </div>
               </div>
             </div>
@@ -994,7 +994,7 @@
           </div>
           <div class="card-body">
             <h2>20-August-2020</h2>
-            <ol>
+            <ul>
               <li>Principal Component Analysis</li>
               <li>Singular Value Decomposition</li>
 
@@ -1002,32 +1002,32 @@
               <!-- <li>Kappa Statistic</li>
               <li>ROC Curve</li> -->
               <br><br>
-            </ol>
+            </ul>
 
             <!-- <p>what a Population </p>
             <p>hypothesis space, parameters, generative models and discriminative models</p>
-            <p>search in parameter space</p> <ol><li></li></ol>-->
+            <p>search in parameter space</p> <ul><li></li></ul>-->
             <div class="d-grid gap-2">
               <button type="button" class="btn btn-lg btn-dark" value="20Aug" onclick="txtON(this)">View Details</button>
             </div>
             <div id="20Aug" class="overlay" onclick="txtOFF(this)">
                 <div class="text">
-                   <ol>
+                   <ul>
                     <li>Principal Component Analysis or PCA is a widely used technique for dimensionality reduction of the large data set. Reducing the number of components or features costs some accuracy and on the other hand, it makes the large data set simpler, easy to explore and visualize.</li>
                     <li>Steps Involved in PCA:
-                      <ol>
+                      <ul>
                          <li>Standardize the data. (with mean =0 and variance = 1)</li>
                          <li>Compute the Covariance matrix of dimensions.</li>
                          <li>Obtain the Eigenvectors and Eigenvalues from the covariance matrix (we can also use correlation matrix or even Single value decomposition, however in this post will focus on covariance matrix).</li>
                          <li>Sort eigenvalues in descending order and choose the top k Eigenvectors that correspond to the k largest eigenvalues (k will become the number of dimensions of the new feature subspace k≤d, d is the number of original dimensions).</li>
                          <li>Construct the projection matrix W from the selected k Eigenvectors.</li>
                          <li>Transform the original data set X via W to obtain the new k-dimensional feature subspace Y.</li>
-                       </ol>
+                       </ul>
                     </li>
                     <li>Transform the original data set X via W to obtain the new k-dimensional feature subspace Y.</li>
                     <li>The singular value decomposition (SVD) provides another way to factorize a matrix, into singular vectors and singular values. The SVD allows us to discover some of the same kind of information as the eigendecomposition. However, the SVD is more generally applicable.</li>
                     <li>The function takes a matrix and returns the U, Sigma and V^T elements. The Sigma diagonal matrix is returned as a vector of singular values. The V matrix is returned in a transposed form, e.g. V.T.</li>
-                   </ol>
+                   </ul>
                   </div>
                 </div>
               </div>
@@ -1042,7 +1042,7 @@
             </div>
             <div class="card-body">
               <h2>21-August-2020</h2>
-              <ol>
+              <ul>
                 <li>Multivariate Bernoulli Naive Bayes</li>
                 <li>Multinomial Naive Bayes</li>
 
@@ -1050,23 +1050,23 @@
                 <!-- <li>Kappa Statistic</li>
                 <li>ROC Curve</li> -->
                 <br><br>
-              </ol>
+              </ul>
 
               <!-- <p>what a Population </p>
               <p>hypothesis space, parameters, generative models and discriminative models</p>
-              <p>search in parameter space</p> <ol><li></li></ol>-->
+              <p>search in parameter space</p> <ul><li></li></ul>-->
               <div class="d-grid gap-2">
                 <button type="button" class="btn btn-lg btn-dark" value="21Aug" onclick="txtON(this)">View Details</button>
               </div>
               <div id="21Aug" class="overlay" onclick="txtOFF(this)">
                   <div class="text">
-                     <ol>
+                     <ul>
                       <li>In the multivariate Bernoulli event model, features are independent Booleans (binary variables) describing inputs.</li>
                       <li>Like the multinomial model, this model is popular for document classification tasks,[10] where binary term occurrence features are used rather than term frequencies. If {\displaystyle x_{i}}x_{i} is a boolean expressing the occurrence or absence of the i'th term from the vocabulary, then the likelihood of a document given a class {\displaystyle C_{k}}C_{k} is given by[</li>
                       <li>It has the benefit of explicitly modelling the absence of terms. Note that a naive Bayes classifier with a Bernoulli event model is not the same as a multinomial NB classifier with frequency counts truncated to one.</li>
                       <li>With a multinomial event model, samples (feature vectors) represent the frequencies with which certain events have been generated by a multinomial {\displaystyle (p_{1},\dots ,p_{n})}(p_1, \dots, p_n) where {\displaystyle p_{i}}p_{i} is the probability that event i occurs (or K such multinomials in the multiclass case). </li>
                       <li>A feature vector {\displaystyle \mathbf {x} =(x_{1},\dots ,x_{n})}{\mathbf  {x}}=(x_{1},\dots ,x_{n}) is then a histogram, with {\displaystyle x_{i}}x_{i} counting the number of times event i was observed in a particular instance. This is the event model typically used for document classification, with events representing the occurrence of a word in a single document (see bag of words assumption).</li>
-                     </ol>
+                     </ul>
                     </div>
                   </div>
                 </div>
@@ -1081,7 +1081,7 @@
               </div>
               <div class="card-body">
                 <h2>22-August-2020</h2>
-                <ol>
+                <ul>
                   <li>Topic Modelling</li>
                   <li>Latent Dirichlet Allocation</li>
 
@@ -1089,17 +1089,17 @@
                   <!-- <li>Kappa Statistic</li>
                   <li>ROC Curve</li> -->
                   <br><br>
-                </ol>
+                </ul>
 
                 <!-- <p>what a Population </p>
                 <p>hypothesis space, parameters, generative models and discriminative models</p>
-                <p>search in parameter space</p> <ol><li></li></ol>-->
+                <p>search in parameter space</p> <ul><li></li></ul>-->
                 <div class="d-grid gap-2">
                   <button type="button" class="btn btn-lg btn-dark" value="22Aug" onclick="txtON(this)">View Details</button>
                 </div>
                 <div id="22Aug" class="overlay" onclick="txtOFF(this)">
                   <div class="text">
-                     <ol>
+                     <ul>
                       <li>Topic Modelling is a process to automatically identify topics present in a text object and to derive hidden patterns exhibited by a text corpus. Thus, assisting better decision making.</li>
                       <li>Topic Modelling is different from rule-based text mining approaches that use regular expressions or dictionary based keyword searching techniques. It is an unsupervised approach used for finding and observing the bunch of words (called “topics”) in large clusters of texts.</li>
                       <li>Topics can be defined as “a repeating pattern of co-occurring terms in a corpus”. A good topic model should result in – “health”, “doctor”, “patient”, “hospital” for a topic – Healthcare, and “farm”, “crops”, “wheat” for a topic – “Farming”.</li>
@@ -1107,13 +1107,13 @@
                       <li>LDA assumes documents are produced from a mixture of topics. Those topics then generate words based on their probability distribution. Given a dataset of documents, LDA backtracks and tries to figure out what topics would create those documents in the first place.</li>
                       <li>LDA is a matrix factorization technique. In vector space, any corpus (collection of documents) can be represented as a document-term matrix. The following matrix shows a corpus of N documents D1, D2, D3 … Dn and vocabulary size of M words W1,W2 .. Wn. The value of i,j cell gives the frequency count of word Wj in Document Di.</li>
                       <li>Parameters of LDA:
-                        <ol>
+                        <ul>
                            <li>Alpha and Beta Hyperparameters – alpha represents document-topic density and Beta represents topic-word density. Higher the value of alpha, documents are composed of more topics and lower the value of alpha, documents contain fewer topics. On the other hand, higher the beta, topics are composed of a large number of words in the corpus, and with the lower value of beta, they are composed of few words.</li>
                            <li>Number of Topics – Number of topics to be extracted from the corpus. Researchers have developed approaches to obtain an optimal number of topics by using Kullback Leibler Divergence Score. I will not discuss this in detail, as it is too mathematical. For understanding, one can refer to this[1] original paper on the use of KL divergence.</li>
                            <li>Number of Topic Terms – Number of terms composed in a single topic. It is generally decided according to the requirement. If the problem statement talks about extracting themes or concepts, it is recommended to choose a higher number, if problem statement talks about extracting features or terms, a low number is recommended.</li>
-                         </ol>
+                         </ul>
                       </li>
-                     </ol>
+                     </ul>
                     </div>
                   </div>
                 </div>
@@ -1127,7 +1127,7 @@
                 </div>
                 <div class="card-body">
                   <h2>25-August-2020</h2>
-                  <ol>
+                  <ul>
                     <li>Categorical Distribution</li>
                     <li>Multimonial Distribution</li>
                     <li>Latent Dirichlet Allocation</li>
@@ -1136,17 +1136,17 @@
                     <!-- <li>Kappa Statistic</li>
                     <li>ROC Curve</li> -->
                     <br>
-                  </ol>
+                  </ul>
 
                   <!-- <p>what a Population </p>
                   <p>hypothesis space, parameters, generative models and discriminative models</p>
-                  <p>search in parameter space</p> <ol><li></li></ol>-->
+                  <p>search in parameter space</p> <ul><li></li></ul>-->
                   <div class="d-grid gap-2">
                     <button type="button" class="btn btn-lg btn-dark" value="25Aug" onclick="txtON(this)">View Details</button>
                   </div>
                   <div id="25Aug" class="overlay" onclick="txtOFF(this)">
                     <div class="text">
-                       <ol>
+                       <ul>
                         <li>A categorical distribution (also called a generalized Bernoulli distribution, multinoulli distribution[1]) is a discrete probability distribution that describes the possible results of a random variable that can take on one of K possible categories, with the probability of each category separately specified.</li>
                         <li>There is no innate underlying ordering of these outcomes, but numerical labels are often attached for convenience in describing the distribution, (e.g. 1 to K). </br>The K-dimensional categorical distribution is the most general distribution over a K-way event; any other discrete distribution over a size-K sample space is a special case. The parameters specifying the probabilities of each possible outcome are constrained only by the fact that each must be in the range 0 to 1, and all must sum to 1.</li>
                         <li>With a multinomial event model, samples (feature vectors) represent the frequencies with which certain events have been generated by a multinomial {\displaystyle (p_{1},\dots ,p_{n})}(p_1, \dots, p_n) where {\displaystyle p_{i}}p_{i} is the probability that event i occurs (or K such multinomials in the multiclass case). </li>
@@ -1155,13 +1155,13 @@
                         <li>LDA assumes documents are produced from a mixture of topics. Those topics then generate words based on their probability distribution. Given a dataset of documents, LDA backtracks and tries to figure out what topics would create those documents in the first place.</li>
                         <li>LDA is a matrix factorization technique. In vector space, any corpus (collection of documents) can be represented as a document-term matrix. The following matrix shows a corpus of N documents D1, D2, D3 … Dn and vocabulary size of M words W1,W2 .. Wn. The value of i,j cell gives the frequency count of word Wj in Document Di.</li>
                         <li>Parameters of LDA:
-                          <ol>
+                          <ul>
                              <li>Alpha and Beta Hyperparameters – alpha represents document-topic density and Beta represents topic-word density. Higher the value of alpha, documents are composed of more topics and lower the value of alpha, documents contain fewer topics. On the other hand, higher the beta, topics are composed of a large number of words in the corpus, and with the lower value of beta, they are composed of few words.</li>
                              <li>Number of Topics – Number of topics to be extracted from the corpus. Researchers have developed approaches to obtain an optimal number of topics by using Kullback Leibler Divergence Score. I will not discuss this in detail, as it is too mathematical. For understanding, one can refer to this[1] original paper on the use of KL divergence.</li>
                              <li>Number of Topic Terms – Number of terms composed in a single topic. It is generally decided according to the requirement. If the problem statement talks about extracting themes or concepts, it is recommended to choose a higher number, if problem statement talks about extracting features or terms, a low number is recommended.</li>
-                           </ol>
+                           </ul>
                         </li>
-                       </ol>
+                       </ul>
                       </div>
                     </div>
                   </div>
@@ -1176,7 +1176,7 @@
                   </div>
                   <div class="card-body">
                     <h2>28-August-2020</h2>
-                    <ol>
+                    <ul>
                       <li>Word2Vec</li>
                       <br>
 
@@ -1184,22 +1184,22 @@
                       <!-- <li>Kappa Statistic</li>
                       <li>ROC Curve</li> -->
                       <br><br>
-                    </ol>
+                    </ul>
 
                     <!-- <p>what a Population </p>
                     <p>hypothesis space, parameters, generative models and discriminative models</p>
-                    <p>search in parameter space</p> <ol><li></li></ol>-->
+                    <p>search in parameter space</p> <ul><li></li></ul>-->
                     <div class="d-grid gap-2">
                       <button type="button" class="btn btn-lg btn-dark" value="28Aug" onclick="txtON(this)">View Details</button>
                     </div>
                     <div id="28Aug" class="overlay" onclick="txtOFF(this)">
                       <div class="text">
-                         <ol>
+                         <ul>
                           <li>Word Embeddings are the texts converted into numbers and there may be different numerical representations of the same text.</li>
                           <li>A vector representation of a word may be a one-hot encoded vector where 1 stands for the position where the word exists and 0 everywhere else. The vector representation of “numbers” in this format according to the above dictionary is [0,0,0,0,0,1] and of converted is[0,0,0,1,0,0].</li>
                           <li>Word2vec is a two-layer neural net that processes text by “vectorizing” words. Its input is a text corpus and its output is a set of vectors: feature vectors that represent words in that corpus. While Word2vec is not a deep neural network, it turns text into a numerical form that deep neural networks can understand.</li>
                           <li>The output of the Word2vec neural net is a vocabulary in which each item has a vector attached to it, which can be fed into a deep-learning net or simply queried to detect relationships between words.</li>
-                         </ol>
+                         </ul>
                         </div>
                       </div>
                     </div>
@@ -1213,7 +1213,7 @@
                     </div>
                     <div class="card-body">
                       <h2>4-September-2020</h2>
-                      <ol>
+                      <ul>
                         <li>Data Scrapping</li>
                         <br>
 
@@ -1221,27 +1221,27 @@
                         <!-- <li>Kappa Statistic</li>
                         <li>ROC Curve</li> -->
                         <br><br>
-                      </ol>
+                      </ul>
 
                       <!-- <p>what a Population </p>
                       <p>hypothesis space, parameters, generative models and discriminative models</p>
-                      <p>search in parameter space</p> <ol><li></li></ol>-->
+                      <p>search in parameter space</p> <ul><li></li></ul>-->
                       <div class="d-grid gap-2">
                         <button type="button" class="btn btn-lg btn-dark" value="4Sep" onclick="txtON(this)">View Details</button>
                       </div>
                       <div id="4Sep" class="overlay" onclick="txtOFF(this)">
                         <div class="text">
-                           <ol>
+                           <ul>
                             <li>Data scraping, also known as web scraping, is the process of importing information from a website into a spreadsheet or local file saved on your computer. It’s one of the most efficient ways to get data from the web, and in some cases to channel that data to another website. </li>
                             <li>The key element that distinguishes data scraping from regular parsing is that the output being scraped is intended for display to an end-user, rather than as input to another program, and is therefore usually neither documented nor structured for convenient parsing. Data scraping often involves ignoring binary data (usually images or multimedia data), display formatting, redundant labels, superfluous commentary, and other information which is either irrelevant or hinders automated processing.</li>
                             <li>Python is has various applications and there are different libraries for different purposes. In our further demonstration, we will be using the following libraries:
-                              <ol>
+                              <ul>
                                  <li>Selenium:  Selenium is a web testing library. It is used to automate browser activities.</li>
                                  <li>BeautifulSoup: Beautiful Soup is a Python package for parsing HTML and XML documents. It creates parse trees that is helpful to extract the data easily.</li>
                                  <li>Pandas: Pandas is a library used for data manipulation and analysis. It is used to extract the data and store it in the desired forma</li>
-                               </ol>
+                               </ul>
                             </li>
-                           </ol>
+                           </ul>
                           </div>
                         </div>
                       </div>
@@ -1255,7 +1255,7 @@
                       </div>
                       <div class="card-body">
                         <h2>9-September-2020</h2>
-                        <ol>
+                        <ul>
                           <li>Locality Sentsitive Hashing</li>
                           <br>
 
@@ -1263,28 +1263,28 @@
                           <!-- <li>Kappa Statistic</li>
                           <li>ROC Curve</li> -->
                           <br><br>
-                        </ol>
+                        </ul>
 
                         <!-- <p>what a Population </p>
                         <p>hypothesis space, parameters, generative models and discriminative models</p>
-                        <p>search in parameter space</p> <ol><li></li></ol>-->
+                        <p>search in parameter space</p> <ul><li></li></ul>-->
                         <div class="d-grid gap-2">
                           <button type="button" class="btn btn-lg btn-dark" value="9Sep" onclick="txtON(this)">View Details</button>
                         </div>
                         <div id="9Sep" class="overlay" onclick="txtOFF(this)">
                           <div class="text">
-                             <ol>
+                             <ul>
                               <li>LSH refers to a family of functions (known as LSH families) to hash data points into buckets so that data points near each other are located in the same buckets with high probability, while data points far from each other are likely to be in different buckets. This makes it easier to identify observations with various degrees of similarity.</li>
                               <li>The general idea of LSH is to find a algorithm such that if we input signatures of 2 documents, it tells us that those 2 documents form a candidate pair or not i.e. their similarity is greater than a threshold t. Remember that we are taking similarity of signatures as a proxy for Jaccard similarity between the original documents.</li>
                               <li>Specifically for min-hash signature matrix:
-                                <ol>
+                                <ul>
                                    <li>Hash columns of signature matrix M using several hash functions</li>
                                    <li>If 2 documents hash into same bucket for at least one of the hash function we can take the 2 documents as a candidate pair</li>
-                                 </ol>
+                                 </ul>
                               </li>
                               <li>To create different hash functions. For this we do band partition.</li>
                               <li>Ideally for each band we want to take k to be equal to all possible combinations of values that a column can take within a band. This will be equivalent to identity matching.</li>
-                             </ol>
+                             </ul>
                             </div>
                           </div>
                         </div>
@@ -1299,7 +1299,7 @@
                         </div>
                         <div class="card-body">
                           <h2>11-September-2020</h2>
-                          <ol>
+                          <ul>
                             <li>Locality Sensitive Hashing</li>
                             <li>Glove Vector</li>
 
@@ -1307,30 +1307,30 @@
                             <!-- <li>Kappa Statistic</li>
                             <li>ROC Curve</li> -->
                             <br><br>
-                          </ol>
+                          </ul>
 
                           <!-- <p>what a Population </p>
                           <p>hypothesis space, parameters, generative models and discriminative models</p>
-                          <p>search in parameter space</p> <ol><li></li></ol>-->
+                          <p>search in parameter space</p> <ul><li></li></ul>-->
                           <div class="d-grid gap-2">
                             <button type="button" class="btn btn-lg btn-dark" value="11Sep" onclick="txtON(this)">View Details</button>
                           </div>
                           <div id="11Sep" class="overlay" onclick="txtOFF(this)">
                             <div class="text">
-                               <ol>
+                               <ul>
                                  <li>LSH refers to a family of functions (known as LSH families) to hash data points into buckets so that data points near each other are located in the same buckets with high probability, while data points far from each other are likely to be in different buckets. This makes it easier to identify observations with various degrees of similarity.</li>
                                  <li>The general idea of LSH is to find a algorithm such that if we input signatures of 2 documents, it tells us that those 2 documents form a candidate pair or not i.e. their similarity is greater than a threshold t. Remember that we are taking similarity of signatures as a proxy for Jaccard similarity between the original documents.</li>
                                  <li>Specifically for min-hash signature matrix:
-                                   <ol>
+                                   <ul>
                                       <li>Hash columns of signature matrix M using several hash functions</li>
                                       <li>If 2 documents hash into same bucket for at least one of the hash function we can take the 2 documents as a candidate pair</li>
-                                    </ol>
+                                    </ul>
                                  </li>
                                  <li>To create different hash functions. For this we do band partition.</li>
                                  <li>Ideally for each band we want to take k to be equal to all possible combinations of values that a column can take within a band. This will be equivalent to identity matching.</li>
                                 <li>GloVe stands for “Global Vectors”. GloVe captures both global statistics and local statistics of a corpus, in order to come up with word vectors.</li>
                                 <li>Given a corpus having V words, the co-occurrence matrix X will be a V x V matrix, where the i th row and j th column of X, X_ij denotes how many times word i has co-occurred with word j.</li>
-                               </ol>
+                               </ul>
                               </div>
                             </div>
                           </div>
@@ -1346,23 +1346,23 @@
           <div class="card-body">
             <h2>14-September-2020</h2>
             <!-- <p></p> -->
-            <ol>
+            <ul>
               <li>Keywords</li>
               <li>Named Entity Extraction</li>
               <li>Coreference Resolution</li>
               <li>Knowledge Graphs</li>
               <br>
 
-            </ol>
+            </ul>
             <!-- <p>Point 1</p>
             <p>Point 2</p>
-            <p>Point 3</p> <ol><li></li></ol>-->
+            <p>Point 3</p> <ul><li></li></ul>-->
             <div class="d-grid gap-2">
               <button type="button" class="btn btn-lg btn-dark" value="14Sep" onclick="txtON(this)">View Details</button>
             </div>
             <div id="14Sep" class="overlay" onclick="txtOFF(this)">
               <div class="text">
-                 <ol>
+                 <ul>
                   <li>Keyword extraction (also known as keyword detection or keyword analysis) is a text analysis technique that automatically extracts the most used and most important words and expressions from a text. It helps summarize the content of texts and recognize the main topics discus</li>
                   <li>Word frequency consists of listing the words and phrases that repeat the most within a text. This can be useful for a myriad of purposes, from identifying recurrent terms in a set of product reviews, to finding out what are the most common issues in customer support interactions.</li>
                   <li>Entities can be names of people, organizations, locations, times, quantities, monetary values, percentages, and more. Extracting these entities helps businesses easily analyze huge amounts of unstructured data, like emails, open-ended survey responses, social media conversations, and more.</li>
@@ -1371,7 +1371,7 @@
                   <li>Algorithms which resolve coreferences commonly look for the nearest preceding mention that is compatible with the referring expression. Instead of using rule-based dependency parse trees, neural networks can also be trained which take into account word embeddings and distance between mentions as features.</li>
                   <li>The knowledge graph represents a collection of interlinked descriptions of entities – objects, events or concepts.</li>
                   <li> Knowledge Representation brings the ability to represent entities and relations with high reliability, explainability, and reusability. </li>
-                 </ol>
+                 </ul>
                 </div>
               </div>
             </div>
@@ -1394,22 +1394,22 @@
           </div>
           <div class="card-body">
             <h2>16-September-2020</h2>
-            <ol>
+            <ul>
               <li>Predicting Ratings</li>
               <li>Similarity Measures</li>
               <li>Content Based Filtering</li>
               <br>
-            </ol>
+            </ul>
 
             <!-- <p>what a Population </p>
             <p>hypothesis space, parameters, generative models and discriminative models</p>
-            <p>search in parameter space</p> <ol><li></li></ol>-->
+            <p>search in parameter space</p> <ul><li></li></ul>-->
             <div class="d-grid gap-2">
               <button type="button" class="btn btn-lg btn-dark" value="16Sep" onclick="txtON(this)">View Details</button>
             </div>
             <div id="16Sep" class="overlay" onclick="txtOFF(this)">
               <div class="text">
-                 <ol>
+                 <ul>
                   <li>The similarity measure is the measure of how much alike two data objects are. A similarity measure is a data mining or machine learning context is a distance with dimensions representing features of the objects</li>
                   <li>Similarities are usually positive ranging between 0 (No Similarity) and 1 (Complete Similarity). We will specifically discuss two important similarity metric namely euclidean and cosine along with the coding example to deal with Wikipedia articles.</li>
                   <li>Greater the Euclidean distance, lower the similarity between the two objects; Lower the distance, higher the similarity between the two objects. To convert this distance metric into the similarity metric, we can divide the distances of objects with the max distance, and then subtract it by 1 to score the similarity between 0 and 1.</li>
@@ -1417,13 +1417,13 @@
                   <li>Content-based filtering algorithms are given user preferences for items and recommend similar items based on a domain-specific notion of item content.</li>
                   <li>A content-based recommender works with data that the user provides, either explicitly (rating) or implicitly (clicking on a link). Based on that data, a user profile is generated, which is then used to make suggestions to the user. As the user provides more inputs or takes actions on those recommendations, the engine becomes more and more accurate.</li>
                   <li>A recommender system has to decide between two methods for information delivery when providing the user with recommendations:
-                    <ol>
+                    <ul>
                        <li>Exploitation. The system chooses documents similar to those for which the user has already expressed a preference.</li>
                        <li>Exploration. The system chooses documents where the user profile does not provide evidence to predict the user’s reaction.</li>
-                     </ol>
+                     </ul>
                   </li>
 
-                 </ol>
+                 </ul>
                 </div>
               </div>
             </div>
@@ -1437,35 +1437,35 @@
           </div>
           <div class="card-body">
             <h2>18-September-2020</h2>
-            <ol>
+            <ul>
               <li>Collaborative Filtering</li>
               <li>Stochastic Gradient</li>
               <br><br>
-            </ol>
+            </ul>
 
             <!-- <p>what a Population </p>
             <p>hypothesis space, parameters, generative models and discriminative models</p>
-            <p>search in parameter space</p> <ol><li></li></ol>-->
+            <p>search in parameter space</p> <ul><li></li></ul>-->
             <div class="d-grid gap-2">
               <button type="button" class="btn btn-lg btn-dark" value="18Sep" onclick="txtON(this)">View Details</button>
             </div>
             <div id="18Sep" class="overlay" onclick="txtOFF(this)">
               <div class="text">
-                 <ol>
+                 <ul>
                   <li>Collaborative filtering is a family of algorithms where there are multiple ways to find similar users or items and multiple ways to calculate rating based on ratings of similar users. </li>
                   <li>The similarity is not calculated using factors like the age of users, genre of the movie, or any other data about users or items. It is calculated only on the basis of the rating (explicit or implicit) a user gives to an item.</li>
                   <li>The technique in the examples explained above, where the rating matrix is used to find similar users based on the ratings they give, is called user-based or user-user collaborative filtering. If you use the rating matrix to find similar items based on the ratings given to them by users, then the approach is called item-based or item-item collaborative filtering</li>
                   <li>The second category covers the Model based approaches, which involve a step to reduce or compress the large but sparse user-item matrix.</li>
                   <li>SGD randomly picks one data point from the whole data set at each iteration to reduce the computations enormously.</li>
                   <li>Typically, there are three types of Gradient Descent:
-                    <ol>
+                    <ul>
                        <li>Batch Gradient Descent</li>
                        <li>Stochastic Gradient Descent</li>
                        <li>Mini-batch Gradient Descent</li>
-                     </ol>
+                     </ul>
                   </li>
 
-                 </ol>
+                 </ul>
                 </div>
               </div>
             </div>
@@ -1480,32 +1480,32 @@
           </div>
           <div class="card-body">
             <h2>18-September-2020</h2>
-            <ol>
+            <ul>
               <li>Matrix Factorization</li>
               <li>Reducing Number of Parameters</li>
               <br><br>
-            </ol>
+            </ul>
 
             <!-- <p>what a Population </p>
             <p>hypothesis space, parameters, generative models and discriminative models</p>
-            <p>search in parameter space</p> <ol><li></li></ol>-->
+            <p>search in parameter space</p> <ul><li></li></ul>-->
             <div class="d-grid gap-2">
               <button type="button" class="btn btn-lg btn-dark" value="181Sep" onclick="txtON(this)">View Details</button>
             </div>
             <div id="18Sep" class="overlay" onclick="txtOFF(this)">
               <div class="text">
-               <ol>
+               <ul>
                 <li>Matrix factorization is a class of collaborative filtering algorithms used in recommender systems.</li>
                 <li>Matrix factorization is the method where matrix m*n is decomposed into m*k and k*n . It is basically used for calculation of complex matrix operation. Division of matrix is such that if we multiply factorized matrix we will get original matrix as shown in Figure 2.</li>
                 <li>It is used for discovering latent features between two entities (can be used for more than two entities but this will come under tensor factorization)</li>
                 <li>Matrix decomposition can be classified into three type-
-                  <ol>
+                  <ul>
                      <li>LU decomposition — Decomposition of matrix into L and U matrix where L is lower triangular matrix and U is upper triangular matrix, generally used for finding the coefficient of linear regression. This decomposition failed if matrix can’t have decomposed easily</li>
                      <li>QR matrix decomposition- Decomposition of matrix into Q and R where Q is square matrix and R is upper triangular matrix (not necessary square). Used for eigen system analysis</li>
                      <li>Cholesky Decomposition- This is the mostly used decomposition in machine learning. Used for calculating linear least square for linear regression</li>
-                   </ol>
+                   </ul>
                 </li>
-               </ol>
+               </ul>
               </div>
             </div>
           </div>
@@ -1529,30 +1529,30 @@
           </div>
           <div class="card-body">
             <h2>21-September-2020</h2>
-            <ol>
+            <ul>
               <li>Coefficients of regression</li>
               <li>p-values</li>
               <li>Decision Trees</li>
               <!-- <li>Hypothesis space, parameters, generative models and discriminative models</li>
               <li>Search in parameter space</li> -->
               <br>
-            </ol>
+            </ul>
 
             <!-- <p>what a Population </p>
             <p>hypothesis space, parameters, generative models and discriminative models</p>
-            <p>search in parameter space</p> <ol><li></li></ol><ol><li></li></ol>-->
+            <p>search in parameter space</p> <ul><li></li></ul><ul><li></li></ul>-->
             <div class="d-grid gap-2">
               <button type="button" class="btn btn-lg btn-dark" value="21Sep" onclick="txtON(this)">View Details</button>
             </div>
             <div id="21Sep" class="overlay" onclick="txtOFF(this)">
               <div class="text">
-                 <ol>
+                 <ul>
                   <li></li>
                   <li></li>
                   <li></li>
                   <li></li>
                   <li></li>
-                 </ol>
+                 </ul>
                 </div>
               </div>
             </div>
@@ -1566,29 +1566,29 @@
           </div>
           <div class="card-body">
             <h2>23-September-2020</h2>
-            <ol>
+            <ul>
               <li>Decision Trees</li>
               <li>Inductive Bias</li>
               <br>
               <br>
-            </ol>
+            </ul>
 
             <!-- <p>what a Population </p>
             <p>hypothesis space, parameters, generative models and discriminative models</p>
-            <p>search in parameter space</p> <ol><li></li></ol>-->
+            <p>search in parameter space</p> <ul><li></li></ul>-->
             <div class="d-grid gap-2">
               <button type="button" class="btn btn-lg btn-dark" value="23Sep" onclick="txtON(this)">View Details</button>
             </div>
             <div id="23Sep" class="overlay" onclick="txtOFF(this)">
               <div class="text">
                 <div class="text">
-                   <ol>
+                   <ul>
                     <li></li>
                     <li></li>
                     <li></li>
                     <li></li>
                     <li></li>
-                   </ol>
+                   </ul>
                   </div>
                 </div>
               </div>
@@ -1603,28 +1603,28 @@
           </div>
           <div class="card-body">
             <h2>10-October-2020</h2>
-            <ol>
+            <ul>
               <li>Prunning Decison Treees</li>
               <li>Ensembel Models</li>
 
               <br><br>
-            </ol>
+            </ul>
 
             <!-- <p>what a Population </p>
             <p>hypothesis space, parameters, generative models and discriminative models</p>
-            <p>search in parameter space</p> <ol><li></li></ol>-->
+            <p>search in parameter space</p> <ul><li></li></ul>-->
             <div class="d-grid gap-2">
               <button type="button" class="btn btn-lg btn-dark" value="10Oct" onclick="txtON(this)">View Details</button>
             </div>
             <div id="10Oct" class="overlay" onclick="txtOFF(this)">
               <div class="text">
-                 <ol>
+                 <ul>
                   <li></li>
                   <li></li>
                   <li></li>
                   <li></li>
                   <li></li>
-                 </ol>
+                 </ul>
                 </div>
               </div>
             </div>
@@ -1639,28 +1639,28 @@
           </div>
           <div class="card-body">
             <h2>12-October-2020</h2>
-            <ol>
+            <ul>
               <li>Random Forrests</li>
               <li>Boosting</li>
               <li>Adaptive Boosting</li>
               <br>
-            </ol>
+            </ul>
 
             <!-- <p>what a Population </p>
             <p>hypothesis space, parameters, generative models and discriminative models</p>
-            <p>search in parameter space</p> <ol><li></li></ol>-->
+            <p>search in parameter space</p> <ul><li></li></ul>-->
             <div class="d-grid gap-2">
               <button type="button" class="btn btn-lg btn-dark" value="12Oct" onclick="txtON(this)">View Details</button>
             </div>
             <div id="12Oct" class="overlay" onclick="txtOFF(this)">
               <div class="text">
-                 <ol>
+                 <ul>
                   <li></li>
                   <li></li>
                   <li></li>
                   <li></li>
                   <li></li>
-                 </ol>
+                 </ul>
                 </div>
               </div>
             </div>
@@ -1675,27 +1675,27 @@
           </div>
           <div class="card-body">
             <h2>14-October-2020</h2>
-            <ol>
+            <ul>
               <li>Lazy Learning</li>
               <li>Nearest Neibhour algoithm</li>
               <br><br>
-            </ol>
+            </ul>
 
             <!-- <p>what a Population </p>
             <p>hypothesis space, parameters, generative models and discriminative models</p>
-            <p>search in parameter space</p> <ol><li></li></ol>-->
+            <p>search in parameter space</p> <ul><li></li></ul>-->
             <div class="d-grid gap-2">
               <button type="button" class="btn btn-lg btn-dark" value="14Oct" onclick="txtON(this)">View Details</button>
             </div>
             <div id="14Oct" class="overlay" onclick="txtOFF(this)">
               <div class="text">
-                 <ol>
+                 <ul>
                   <li></li>
                   <li></li>
                   <li></li>
                   <li></li>
                   <li></li>
-                 </ol>
+                 </ul>
                 </div>
               </div>
             </div>
@@ -1710,28 +1710,28 @@
           </div>
           <div class="card-body">
             <h2>19-October-2020</h2>
-            <ol>
+            <ul>
               <li>Similarity Measurement</li>
               <li>Mahalanobis Distance</li>
               <li>Cosine Similarity</li>
               <li>Nominal Variables</li>
-            </ol>
+            </ul>
 
             <!-- <p>what a Population </p>
             <p>hypothesis space, parameters, generative models and discriminative models</p>
-            <p>search in parameter space</p> <ol><li></li></ol>-->
+            <p>search in parameter space</p> <ul><li></li></ul>-->
             <div class="d-grid gap-2">
               <button type="button" class="btn btn-lg btn-dark" value="19Oct" onclick="txtON(this)">View Details</button>
             </div>
             <div id="19Oct" class="overlay" onclick="txtOFF(this)">
               <div class="text">
-                 <ol>
+                 <ul>
                   <li></li>
                   <li></li>
                   <li></li>
                   <li></li>
                   <li></li>
-                 </ol>
+                 </ul>
                 </div>
               </div>
             </div>
@@ -1746,27 +1746,27 @@
           </div>
           <div class="card-body">
             <h2>21-October-2020</h2>
-            <ol>
+            <ul>
               <li>Linear Regression using Sklearn</li>
               <br>
               <br><br>
-            </ol>
+            </ul>
 
             <!-- <p>what a Population </p>
             <p>hypothesis space, parameters, generative models and discriminative models</p>
-            <p>search in parameter space</p> <ol><li></li></ol>-->
+            <p>search in parameter space</p> <ul><li></li></ul>-->
             <div class="d-grid gap-2">
               <button type="button" class="btn btn-lg btn-dark" value="21Oct" onclick="txtON(this)">View Details</button>
             </div>
             <div id="21Oct" class="overlay" onclick="txtOFF(this)">
               <div class="text">
-                 <ol>
+                 <ul>
                   <li></li>
                   <li></li>
                   <li></li>
                   <li></li>
                   <li></li>
-                 </ol>
+                 </ul>
                 </div>
               </div>
             </div>
@@ -1781,28 +1781,28 @@
           </div>
           <div class="card-body">
             <h2>23-October-2020</h2>
-            <ol>
+            <ul>
               <li>Genetic Algorithms</li>
               <li>Mutation</li>
 
               <br><br>
-            </ol>
+            </ul>
 
             <!-- <p>what a Population </p>
             <p>hypothesis space, parameters, generative models and discriminative models</p>
-            <p>search in parameter space</p> <ol><li></li></ol>-->
+            <p>search in parameter space</p> <ul><li></li></ul>-->
             <div class="d-grid gap-2">
               <button type="button" class="btn btn-lg btn-dark" value="23Oct" onclick="txtON(this)">View Details</button>
             </div>
             <div id="23Oct" class="overlay" onclick="txtOFF(this)">
               <div class="text">
-                 <ol>
+                 <ul>
                   <li></li>
                   <li></li>
                   <li></li>
                   <li></li>
                   <li></li>
-                 </ol>
+                 </ul>
                 </div>
               </div>
             </div>
@@ -1817,27 +1817,27 @@
           </div>
           <div class="card-body">
             <h2>26-October-2020</h2>
-            <ol>
+            <ul>
               <li>Support Vector Machines</li>
               <br>
               <br><br>
-            </ol>
+            </ul>
 
             <!-- <p>what a Population </p>
             <p>hypothesis space, parameters, generative models and discriminative models</p>
-            <p>search in parameter space</p> <ol><li></li></ol>-->
+            <p>search in parameter space</p> <ul><li></li></ul>-->
             <div class="d-grid gap-2">
               <button type="button" class="btn btn-lg btn-dark" value="26Oct" onclick="txtON(this)">View Details</button>
             </div>
             <div id="26Oct" class="overlay" onclick="txtOFF(this)">
               <div class="text">
-                 <ol>
+                 <ul>
                   <li></li>
                   <li></li>
                   <li></li>
                   <li></li>
                   <li></li>
-                 </ol>
+                 </ul>
                 </div>
               </div>
             </div>
@@ -1859,27 +1859,27 @@
             </div>
             <div class="card-body">
               <h2>27-October-2020</h2>
-              <ol>
+              <ul>
                 <li>MFCC for Audio Feature Extraction</li>
                 <br><br>
                 <br>
-              </ol>
+              </ul>
 
               <!-- <p>what a Population </p>
               <p>hypothesis space, parameters, generative models and discriminative models</p>
-              <p>search in parameter space</p> <ol><li></li></ol>-->
+              <p>search in parameter space</p> <ul><li></li></ul>-->
               <div class="d-grid gap-2">
                 <button type="button" class="btn btn-lg btn-dark" value="27Oct" onclick="txtON(this)">View Details</button>
               </div>
               <div id="27Oct" class="overlay" onclick="txtOFF(this)">
                 <div class="text">
-                   <ol>
+                   <ul>
                     <li></li>
                     <li></li>
                     <li></li>
                     <li></li>
                     <li></li>
-                   </ol>
+                   </ul>
                   </div>
                 </div>
               </div>
@@ -1903,29 +1903,29 @@
             </div>
             <div class="card-body">
               <h2>2-November-2020</h2>
-              <ol>
+              <ul>
                 <li>Graph Minning</li>
                 <li>Cutting Graphs</li>
                 <li>Spectral Clustering</li>
 
                 <br>
-              </ol>
+              </ul>
 
               <!-- <p>what a Population </p>
               <p>hypothesis space, parameters, generative models and discriminative models</p>
-              <p>search in parameter space</p> <ol><li></li></ol><ol><li></li></ol>-->
+              <p>search in parameter space</p> <ul><li></li></ul><ul><li></li></ul>-->
               <div class="d-grid gap-2">
                 <button type="button" class="btn btn-lg btn-dark" value="2Nov" onclick="txtON(this)">View Details</button>
               </div>
               <div id="2Nov" class="overlay" onclick="txtOFF(this)">
                 <div class="text">
-                   <ol>
+                   <ul>
                     <li></li>
                     <li></li>
                     <li></li>
                     <li></li>
                     <li></li>
-                   </ol>
+                   </ul>
                   </div>
                 </div>
               </div>
@@ -1940,28 +1940,28 @@
             </div>
             <div class="card-body">
               <h2>4-November-2020</h2>
-              <ol>
+              <ul>
                 <li>Co-authorship Graphs</li>
                 <li>Graph Theoretic Terminology</li>
                 <br><br>
 
-              </ol>
+              </ul>
 
               <!-- <p>what a Population </p>
               <p>hypothesis space, parameters, generative models and discriminative models</p>
-              <p>search in parameter space</p> <ol><li></li></ol>-->
+              <p>search in parameter space</p> <ul><li></li></ul>-->
               <div class="d-grid gap-2">
                 <button type="button" class="btn btn-lg btn-dark" value="4Nov" onclick="txtON(this)">View Details</button>
               </div>
               <div id="4Nov" class="overlay" onclick="txtOFF(this)">
                 <div class="text">
-                   <ol>
+                   <ul>
                     <li></li>
                     <li></li>
                     <li></li>
                     <li></li>
                     <li></li>
-                   </ol>
+                   </ul>
                   </div>
                 </div>
               </div>
@@ -1986,28 +1986,28 @@
           </div>
           <div class="card-body">
             <h2>6-November-2020</h2>
-            <ol>
+            <ul>
               <li>Perceptron</li>
               <li>Multi Layered Perceptron</li>
               <li>Spectral Clustering</li>
               <li>Toxic Classification code WalkThrough</li>
-            </ol>
+            </ul>
 
             <!-- <p>what a Population </p>
             <p>hypothesis space, parameters, generative models and discriminative models</p>
-            <p>search in parameter space</p> <ol><li></li></ol>-->
+            <p>search in parameter space</p> <ul><li></li></ul>-->
             <div class="d-grid gap-2">
               <button type="button" class="btn btn-lg btn-dark" value="6Nov" onclick="txtON(this)">View Details</button>
             </div>
             <div id="6Nov" class="overlay" onclick="txtOFF(this)">
               <div class="text">
-                 <ol>
+                 <ul>
                   <li></li>
                   <li></li>
                   <li></li>
                   <li></li>
                   <li></li>
-                 </ol>
+                 </ul>
                 </div>
               </div>
             </div>
@@ -2022,17 +2022,17 @@
           </div>
           <div class="card-body">
             <h2>9-November-2020</h2>
-            <ol>
+            <ul>
               <li>Convolution Neural Network</li>
               <li>MLP for MNIST</li>
               <li>LeNet</li>
 
               <br>
-            </ol>
+            </ul>
 
             <!-- <p>what a Population </p>
             <p>hypothesis space, parameters, generative models and discriminative models</p>
-            <p>search in parameter space</p> <ol><li></li></ol>-->
+            <p>search in parameter space</p> <ul><li></li></ul>-->
             <div class="d-grid gap-2">
               <button type="button" class="btn btn-lg btn-dark">View Details</button>
             </div>
@@ -2048,29 +2048,29 @@
           </div>
           <div class="card-body">
             <h2>11-November-2020</h2>
-            <ol>
+            <ul>
               <li>CNN Forward Pass</li>
               <li>VGG 16</li>
               <br>
 
               <br>
-            </ol>
+            </ul>
 
             <!-- <p>what a Population </p>
             <p>hypothesis space, parameters, generative models and discriminative models</p>
-            <p>search in parameter space</p> <ol><li></li></ol>-->
+            <p>search in parameter space</p> <ul><li></li></ul>-->
             <div class="d-grid gap-2">
               <button type="button" class="btn btn-lg btn-dark" value="11Nov" onclick="txtON(this)">View Details</button>
             </div>
             <div id="11Nov" class="overlay" onclick="txtOFF(this)">
               <div class="text">
-                 <ol>
+                 <ul>
                   <li></li>
                   <li></li>
                   <li></li>
                   <li></li>
                   <li></li>
-                 </ol>
+                 </ul>
                 </div>
               </div>
             </div>
@@ -2085,28 +2085,28 @@
           </div>
           <div class="card-body">
             <h2>13-November-2020</h2>
-            <ol>
+            <ul>
               <li>Cross Correlation</li>
               <li>Maxpooling</li>
               <li>Typical CNN Architecture</li>
               <li>BackProp in CNN</li>
-            </ol>
+            </ul>
 
             <!-- <p>what a Population </p>
             <p>hypothesis space, parameters, generative models and discriminative models</p>
-            <p>search in parameter space</p> <ol><li></li></ol><ol><li></li></ol><ol><li></li></ol>-->
+            <p>search in parameter space</p> <ul><li></li></ul><ul><li></li></ul><ul><li></li></ul>-->
             <div class="d-grid gap-2">
               <button type="button" class="btn btn-lg btn-dark" value="13Nov" onclick="txtON(this)">View Details</button>
             </div>
             <div id="13Nov" class="overlay" onclick="txtOFF(this)">
               <div class="text">
-                 <ol>
+                 <ul>
                   <li></li>
                   <li></li>
                   <li></li>
                   <li></li>
                   <li></li>
-                 </ol>
+                 </ul>
                 </div>
               </div>
             </div>
@@ -2121,28 +2121,28 @@
           </div>
           <div class="card-body">
             <h2>16-November-2020</h2>
-            <ol>
+            <ul>
               <li>Data Augmentation</li>
               <li>AlexNet</li>
               <li>ZF Net</li>
               <li>GoogLeNet</li>
-            </ol>
+            </ul>
 
             <!-- <p>what a Population </p>
             <p>hypothesis space, parameters, generative models and discriminative models</p>
-            <p>search in parameter space</p> <ol><li></li></ol><ol><li></li></ol>-->
+            <p>search in parameter space</p> <ul><li></li></ul><ul><li></li></ul>-->
             <div class="d-grid gap-2">
               <button type="button" class="btn btn-lg btn-dark" value="16Nov" onclick="txtON(this)">View Details</button>
             </div>
             <div id="16Nov" class="overlay" onclick="txtOFF(this)">
               <div class="text">
-                 <ol>
+                 <ul>
                   <li></li>
                   <li></li>
                   <li></li>
                   <li></li>
                   <li></li>
-                 </ol>
+                 </ul>
                 </div>
               </div>
             </div>
@@ -2157,28 +2157,28 @@
           </div>
           <div class="card-body">
             <h2>20-November-2020</h2>
-            <ol>
+            <ul>
               <li>Recurrent Neural Networks</li>
               <li>Sequential Data</li>
               <li>Time Series Data</li>
               <li>Sequence Modelling</li>
-            </ol>
+            </ul>
 
             <!-- <p>what a Population </p>
             <p>hypothesis space, parameters, generative models and discriminative models</p>
-            <p>search in parameter space</p> <ol><li></li></ol>-->
+            <p>search in parameter space</p> <ul><li></li></ul>-->
             <div class="d-grid gap-2">
               <button type="button" class="btn btn-lg btn-dark" value="20Nov" onclick="txtON(this)">View Details</button>
             </div>
             <div id="20Nov" class="overlay" onclick="txtOFF(this)">
               <div class="text">
-                 <ol>
+                 <ul>
                   <li></li>
                   <li></li>
                   <li></li>
                   <li></li>
                   <li></li>
-                 </ol>
+                 </ul>
                 </div>
               </div>
             </div>
@@ -2193,28 +2193,28 @@
           </div>
           <div class="card-body">
             <h2>2-December-2020</h2>
-            <ol>
+            <ul>
               <li>RNN as Matrix Operation</li>
               <li>Different RNN Models</li>
               <li>Backpropogation through Time</li>
               <li>Vanishing/Exploding Gradient Problem</li>
-            </ol>
+            </ul>
 
             <!-- <p>what a Population </p>
             <p>hypothesis space, parameters, generative models and discriminative models</p>
-            <p>search in parameter space</p> <ol><li></li></ol>-->
+            <p>search in parameter space</p> <ul><li></li></ul>-->
             <div class="d-grid gap-2">
               <button type="button" class="btn btn-lg btn-dark" value="2Dec" onclick="txtON(this)">View Details</button>
             </div>
             <div id="2Dec" class="overlay" onclick="txtOFF(this)">
               <div class="text">
-                 <ol>
+                 <ul>
                   <li></li>
                   <li></li>
                   <li></li>
                   <li></li>
                   <li></li>
-                 </ol>
+                 </ul>
                 </div>
               </div>
             </div>
@@ -2229,28 +2229,28 @@
           </div>
           <div class="card-body">
             <h2>4-December-2020</h2>
-            <ol>
+            <ul>
               <li>Implementation in TensorFlow</li>
               <br><br>
 
               <br>
-            </ol>
+            </ul>
 
             <!-- <p>what a Population </p>
             <p>hypothesis space, parameters, generative models and discriminative models</p>
-            <p>search in parameter space</p> <ol><li></li></ol>-->
+            <p>search in parameter space</p> <ul><li></li></ul>-->
             <div class="d-grid gap-2">
               <button type="button" class="btn btn-lg btn-dark" value="4Dec" onclick="txtON(this)">View Details</button>
             </div>
             <div id="4Dec" class="overlay" onclick="txtOFF(this)">
               <div class="text">
-                 <ol>
+                 <ul>
                   <li></li>
                   <li></li>
                   <li></li>
                   <li></li>
                   <li></li>
-                 </ol>
+                 </ul>
                 </div>
               </div>
             </div>
@@ -2265,29 +2265,29 @@
           </div>
           <div class="card-body">
             <h2>7-December-2020</h2>
-            <ol>
+            <ul>
               <li>Attention Model</li>
               <li>Encoder Decoder Model</li>
               <li>Seq2Seq Model</li>
 
               <br>
-            </ol>
+            </ul>
 
             <!-- <p>what a Population </p>
             <p>hypothesis space, parameters, generative models and discriminative models</p>
-            <p>search in parameter space</p> <ol><li></li></ol><ol><li></li></ol>-->
+            <p>search in parameter space</p> <ul><li></li></ul><ul><li></li></ul>-->
             <div class="d-grid gap-2">
               <button type="button" class="btn btn-lg btn-dark" value="7Dec" onclick="txtON(this)">View Details</button>
             </div>
             <div id="7Dec" class="overlay" onclick="txtOFF(this)">
               <div class="text">
-                 <ol>
+                 <ul>
                   <li></li>
                   <li></li>
                   <li></li>
                   <li></li>
                   <li></li>
-                 </ol>
+                 </ul>
                 </div>
               </div>
             </div>
@@ -2302,29 +2302,29 @@
           </div>
           <div class="card-body">
             <h2>9-December-2020</h2>
-            <ol>
+            <ul>
               <li>Seq2Seq Model - Embedding</li>
               <li>Code Walk Through</li>
               <br>
 
               <br>
-            </ol>
+            </ul>
 
             <!-- <p>what a Population </p>
             <p>hypothesis space, parameters, generative models and discriminative models</p>
-            <p>search in parameter space</p> <ol><li></li></ol>-->
+            <p>search in parameter space</p> <ul><li></li></ul>-->
             <div class="d-grid gap-2">
               <button type="button" class="btn btn-lg btn-dark" value="9Dec" onclick="txtON(this)">View Details</button>
             </div>
             <div id="9Dec" class="overlay" onclick="txtOFF(this)">
               <div class="text">
-                 <ol>
+                 <ul>
                   <li></li>
                   <li></li>
                   <li></li>
                   <li></li>
                   <li></li>
-                 </ol>
+                 </ul>
                 </div>
               </div>
             </div>
@@ -2339,29 +2339,29 @@
           </div>
           <div class="card-body">
             <h2>11-December-2020</h2>
-            <ol>
+            <ul>
               <li>Auto Encoders</li>
               <li>Code Walk Through</li>
               <br>
 
               <br>
-            </ol>
+            </ul>
 
             <!-- <p>what a Population </p>
             <p>hypothesis space, parameters, generative models and discriminative models</p>
-            <p>search in parameter space</p> <ol><li></li></ol>-->
+            <p>search in parameter space</p> <ul><li></li></ul>-->
             <div class="d-grid gap-2">
               <button type="button" class="btn btn-lg btn-dark" value="11Dec" onclick="txtON(this)">View Details</button>
             </div>
             <div id="11Dec" class="overlay" onclick="txtOFF(this)">
               <div class="text">
-                 <ol>
+                 <ul>
                   <li></li>
                   <li></li>
                   <li></li>
                   <li></li>
                   <li></li>
-                 </ol>
+                 </ul>
                 </div>
               </div>
             </div>
@@ -2390,28 +2390,28 @@
           </div>
           <div class="card-body">
             <h2>14-December-2020</h2>
-            <ol>
+            <ul>
               <li>DeepWalk</li>
               <li>GNNs</li>
               <li>Poincare Embeddings</li>
         <br>
-            </ol>
+            </ul>
 
             <!-- <p>what a Population </p>
             <p>hypothesis space, parameters, generative models and discriminative models</p>
-            <p>search in parameter space</p> <ol><li></li></ol>-->
+            <p>search in parameter space</p> <ul><li></li></ul>-->
             <div class="d-grid gap-2">
               <button type="button" class="btn btn-lg btn-dark" value="14Dec" onclick="txtON(this)">View Details</button>
             </div>
             <div id="14Dec" class="overlay" onclick="txtOFF(this)">
               <div class="text">
-                 <ol>
+                 <ul>
                   <li></li>
                   <li></li>
                   <li></li>
                   <li></li>
                   <li></li>
-                 </ol>
+                 </ul>
                 </div>
               </div>
             </div>
